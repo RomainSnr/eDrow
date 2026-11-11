@@ -1,16 +1,16 @@
 {
   "name": "Fiches Daggerheart",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "manifest_version": 1,
   "description": "Lie une fiche Daggerheart (Demiplane) à un token.",
-  "author": "Moi",
-  "icon": "/icon.svg",
+  "author": "Romain",
+  "icon": "https://romainsnr.github.io/eDrow/icon.svg",
   "action": {
     "title": "Fiches Daggerheart",
-    "icon": "/icon.svg",
-    "popover": "/popover.html",
+    "icon": "https://romainsnr.github.io/eDrow/icon.svg",
+    "popover": "https://romainsnr.github.io/eDrow/popover.html",
     "width": 360,
     "height": 560
   },
-  "background_url": "/background.html"
+  "background_url": "https://romainsnr.github.io/eDrow/background.html"
 }

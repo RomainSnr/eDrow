@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cartes de domaine</title>
+<link rel="stylesheet" href="cartes.css">
+</head>
+<body>
+<header>
+  <input id="q" type="search" placeholder="Rechercher une carte…" autocomplete="off">
+  <div id="domaines" class="chips" aria-label="Domaine"></div>
+  <div id="niveaux" class="chips" aria-label="Niveau"></div>
+  <div class="barre">
+    <label>Tri
+      <select id="tri">
+        <option value="domaine">Domaine, puis niveau</option>
+        <option value="niveau">Niveau, puis domaine</option>
+        <option value="nom">Nom (A–Z)</option>
+      </select>
+    </label>
+    <span id="compte"></span>
+  </div>
+</header>
+<main id="liste"></main>
+<script src="cartes.js"></script>
+</body>
+</html>

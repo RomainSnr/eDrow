@@ -1,0 +1,2245 @@
+[
+ {
+  "id": "arcane-1-1",
+  "nom": "Déchaîner le chaos",
+  "domaine": "Arcane",
+  "type": "Sort",
+  "niveau": 1,
+  "rappel": 1,
+  "texte": [
+   "En début de session, posez sur cette carte un nombre de jetons égal à votre trait d’Incantation.",
+   "Effectuez un jet d’Incantation contre une cible à Longue portée et dépensez le nombre de jetons que vous désirez pour canaliser une énergie brute à déchaîner contre elle. Sur un succès, lancez un nombre de d10 égal au nombre de jetons dépensés et infligez cette quantité de dégâts à la cible. Cochez un Stress pour refaire le plein de jetons sur la carte (sans dépasser votre trait d’Incantation).",
+   "À la fin de chaque session, les jetons non dépensés sont perdus."
+  ]
+ },
+ {
+  "id": "arcane-1-2",
+  "nom": "Marcher sur les murs",
+  "domaine": "Arcane",
+  "type": "Sort",
+  "niveau": 1,
+  "rappel": 1,
+  "texte": [
+   "Dépensez un Espoir pour permettre à une créature que vous touchez de marcher sur les murs et au plafond aussi facilement que sur le sol. Cela fonctionne jusqu’à la fin de la scène ou jusqu’à ce que vous lanciez de nouveau ce sort."
+  ]
+ },
+ {
+  "id": "arcane-1-3",
+  "nom": "Sceau runique",
+  "domaine": "Arcane",
+  "type": "Sort",
+  "niveau": 1,
+  "rappel": 0,
+  "texte": [
+   "Vous possédez une babiole revêtant une grande importance personnelle que vous ou un allié pouvez utiliser comme protection. Décrivez ce que c’est et pourquoi cet objet est si important pour vous. Le détenteur du sceau peut dépenser un Espoir pour réduire des dégâts imminents de 1d8.",
+   "Si vous obtenez 8 au dé, le pouvoir du sceau est épuisé après avoir réduit les dégâts pour ce tour. Vous pourrez le recharger gratuitement lors de votre prochain repos."
+  ]
+ },
+ {
+  "id": "arcane-2-4",
+  "nom": "Emprise enflammée",
+  "domaine": "Arcane",
+  "type": "Sort",
+  "niveau": 2,
+  "rappel": 1,
+  "texte": [
+   "Effectuez un jet d’Incantation contre une cible en Mêlée. Sur un succès, elle s’embrase instantanément, subissant 1d20+3 dégâts magiques et elle est temporairement En feu.",
+   "Si une créature agit alors qu’elle est En feu, elle subit 2d6 dégâts magiques supplémentaires si elle est toujours En feu à la fin de son action."
+  ]
+ },
+ {
+  "id": "arcane-2-5",
+  "nom": "Œil flottant",
+  "domaine": "Arcane",
+  "type": "Sort",
+  "niveau": 2,
+  "rappel": 0,
+  "texte": [
+   "Dépensez un Espoir pour créer un unique petit orbe flottant que vous pouvez déplacer à votre guise à Très longue portée. Tant que ce sort est actif, vous pouvez regarder à travers cet orbe comme si vous occupiez sa position. Vous pouvez alterner librement entre vos propres sens et ceux de l’orbe. Le sort se termine si l’orbe subit des dégâts ou que le sort se termine."
+  ]
+ },
+ {
+  "id": "arcane-3-6",
+  "nom": "Contresort",
+  "domaine": "Arcane",
+  "type": "Sort",
+  "niveau": 3,
+  "rappel": 2,
+  "texte": [
+   "Vous pouvez interrompre un effet magique en cours à l’aide d’un jet de réaction utilisant votre trait d’Incantation. Sur un succès, l’effet s’arrête et ses conséquences sont évitées. Vous placez cette carte dans votre caveau."
+  ]
+ },
+ {
+  "id": "arcane-3-7",
+  "nom": "Vol",
+  "domaine": "Arcane",
+  "type": "Sort",
+  "niveau": 3,
+  "rappel": 1,
+  "texte": [
+   "Effectuez un jet d’Incantation (15). Sur un succès, placez sur cette carte un nombre de jetons égal à votre Agilité (minimum 1). Lorsque vous effectuez un jet d’action alors que vous volez, dépensez un jeton de cette carte. Une fois que l’action liée au dernier jeton de la carte est résolue, vous redescendez au sol à la verticale."
+  ]
+ },
+ {
+  "id": "arcane-4-8",
+  "nom": "Clignotement",
+  "domaine": "Arcane",
+  "type": "Sort",
+  "niveau": 4,
+  "rappel": 1,
+  "texte": [
+   "Effectuez un jet d’Incantation (12). Sur un succès, dépensez un Espoir pour vous téléporter en un point de votre champ de vision situé à Longue portée. Si une ou plusieurs créatures consentantes se trouvent à Très courte portée par rapport à vous, dépensez un Espoir de plus par créature à emmener avec vous."
+  ]
+ },
+ {
+  "id": "arcane-4-9",
+  "nom": "Explosion préservatrice",
+  "domaine": "Arcane",
+  "type": "Sort",
+  "niveau": 4,
+  "rappel": 2,
+  "texte": [
+   "Effectuez un jet d’Incantation contre toutes les cibles en Mêlée. Les cibles contre lesquelles vous avez réussi sont repoussées à Longue portée et subissent d8+3 dégâts magiques en utilisant votre trait d’Incantation."
+  ]
+ },
+ {
+  "id": "arcane-5-10",
+  "nom": "Chaîne d’éclairs",
+  "domaine": "Arcane",
+  "type": "Sort",
+  "niveau": 5,
+  "rappel": 1,
+  "texte": [
+   "Cochez 2 Stress pour effectuer un jet d’Incantation et déchaîner la foudre sur toutes les cibles à Courte portée. Les cibles contre lesquelles vous réussissez doivent faire un jet de réaction avec une Difficulté égale au résultat de votre jet d’Incantation. Celles qui échouent subissent 2d8+4 dégâts magiques. Les adversaires supplémentaires qui n’ont pas encore été pris pour cibles par Chaîne d’éclairs et se trouvent à Courte portée de cibles touchées doivent aussi faire le jet de réaction. Les cibles qui échouent subissent 2d8+4 dégâts magiques. Cette réaction en chaîne se poursuit jusqu’à ce qu’il n’y ait plus d’adversaires à portée."
+  ]
+ },
+ {
+  "id": "arcane-5-11",
+  "nom": "Prémonition",
+  "domaine": "Arcane",
+  "type": "Sort",
+  "niveau": 5,
+  "rappel": 2,
+  "texte": [
+   "Vous pouvez canaliser l’énergie magique pour avoir une vision du futur. Une fois par long repos, immédiatement après que le MJ vous a annoncé les conséquences d’un jet que vous venez de faire, vous pouvez annuler votre acte et ses conséquences, comme si rien ne s’était passé, et faire autre chose à la place."
+  ]
+ },
+ {
+  "id": "arcane-6-12",
+  "nom": "Passefaille",
+  "domaine": "Arcane",
+  "type": "Sort",
+  "niveau": 6,
+  "rappel": 2,
+  "texte": [
+   "Effectuez un jet d’Incantation (15). Sur un succès, vous apposez une marque magique au sol, là où vous vous trouvez. La prochaine fois où vous utilisez Passefaille, une faille s’ouvrira dans l’espace et vous offrira un passage sûr jusqu’à l’endroit marqué. La faille reste ouverte jusqu’à ce que vous la fermiez ou lanciez un autre sort.",
+   "Vous pouvez abandonner ce sort quand vous le souhaitez pour lancer de nouveau Passefaille et poser une marque ailleurs."
+  ]
+ },
+ {
+  "id": "arcane-6-13",
+  "nom": "Télékinésie",
+  "domaine": "Arcane",
+  "type": "Sort",
+  "niveau": 6,
+  "rappel": 0,
+  "texte": [
+   "Effectuez un jet d’Incantation contre une cible à Longue portée. Sur un succès, vous pouvez la déplacer par la pensée où bon vous semble à Longue portée de sa position originelle. Vous pouvez lancer la cible pour attaquer à l’aide d’un deuxième jet d’Incantation contre la seconde cible que vous visez. Sur un succès, vous infligez d12+4 dégâts physiques à la seconde cible en vous basant sur votre Compétence. Ce sort s’arrête alors."
+  ]
+ },
+ {
+  "id": "arcane-7-14",
+  "nom": "Béni par l’Arcane",
+  "domaine": "Arcane",
+  "type": "Capacité",
+  "niveau": 7,
+  "rappel": 2,
+  "texte": [
+   "Lorsque vous avez au moins 4 cartes du domaine de l’Arcane dans votre main, vous gagnez les avantages suivants :",
+   "• Bonus de +1 aux jets d’Incantation",
+   "• Une fois par repos, vous pouvez échanger le résultat de vos dés d’Espoir et de Peur."
+  ]
+ },
+ {
+  "id": "arcane-7-15",
+  "nom": "Sort camoufleur",
+  "domaine": "Arcane",
+  "type": "Sort",
+  "niveau": 7,
+  "rappel": 2,
+  "texte": [
+   "Lorsque vous réussissez un jet d’Incantation pour lancer un autre sort, vous",
+   "pouvez dépenser un Espoir pour devenir Camouflé. Tant que vous êtes Camouflé et stationnaire, un adversaire ne vous voit pas, même s’il se déplace à un endroit où il devrait normalement vous voir. Vous n’êtes plus Camouflé si vous entrez dans le champ de vision d’un adversaire, que vous vous y déplacez, ou si vous attaquez."
+  ]
+ },
+ {
+  "id": "arcane-8-16",
+  "nom": "Aura perturbante",
+  "domaine": "Arcane",
+  "type": "Sort",
+  "niveau": 8,
+  "rappel": 2,
+  "texte": [
+   "Effectuez un jet d’Incantation (14). Sur un succès, une fois par long repos, vous tissez une couche d’illusions sur votre corps grâce à laquelle il est difficile de savoir exactement où vous vous trouvez. Cochez autant de Stress que vous le souhaitez ajouter de couches d’illusions supplémentaires. Lorsqu’un adversaire fait une attaque contre vous, lancez un nombre de d6 égal au nombre de couches actives sur vous. Si un dé donne 5 ou plus, une couche disparaît et l’attaque échoue. Si tous les dés donnent 4 ou moins, vous subissez les dégâts et le sort se termine."
+  ]
+ },
+ {
+  "id": "arcane-8-17",
+  "nom": "Renvoi arcanique",
+  "domaine": "Arcane",
+  "type": "Sort",
+  "niveau": 8,
+  "rappel": 1,
+  "texte": [
+   "Lorsque vous devriez subir des dégâts magiques, vous pouvez dépenser autant d’Espoirs que vous le souhaitez pour lancer un nombre de d6 équivalent. Si vous obtenez au moins un 6, l’attaque est renvoyée sur son lanceur et lui inflige les dégâts prévus."
+  ]
+ },
+ {
+  "id": "arcane-9-18",
+  "nom": "Projection sensorielle",
+  "domaine": "Arcane",
+  "type": "Sort",
+  "niveau": 9,
+  "rappel": 0,
+  "texte": [
+   "Une fois par repos, effectuez un jet d’Incantation (15). Sur un succès, vous avez une vision vous permettant de voir et d’entendre clairement ce qui se passe en un lieu où vous vous êtes déjà rendu exactement comme si vous vous y trouviez en ce moment. Vous pouvez vous déplacer librement dans cette vision et",
+   "vous n’êtes pas restreint par les lois de la physique ni les limites d’un corps tangible. Il est impossible de déceler ce sort par des moyens ordinaires ou magiques. Vous sortez de la vision si vous subissez des dégâts ou lancez un autre sort."
+  ]
+ },
+ {
+  "id": "arcane-9-19",
+  "nom": "Tremblement de terre",
+  "domaine": "Arcane",
+  "type": "Sort",
+  "niveau": 9,
+  "rappel": 2,
+  "texte": [
+   "Effectuez un jet d’Incantation (16). Sur un succès, une fois par repos, toutes les créatures situées à Très longue portée et ne se trouvant pas en vol doivent faire un jet de réaction (18). Celles qui échouent subissent 3d10+8 dégâts physiques et sont temporairement Vulnérables. Celles qui réussissent subissent seulement la moitié des dégâts.",
+   "De plus, lorsque vous réussissez votre jet d’Incantation, tout le terrain situé à Très longue portée devient difficile à parcourir et les structures qui se trouvent dessus peuvent subir des dommages importants ou même s’écrouler."
+  ]
+ },
+ {
+  "id": "arcane-10-20",
+  "nom": "Ajustement de la réalité",
+  "domaine": "Arcane",
+  "type": "Sort",
+  "niveau": 10,
+  "rappel": 1,
+  "texte": [
+   "Une fois que vous ou un allié consentant avez effectué un jet, vous pouvez dépenser 5 Espoirs pour changer le résultat numérique du jet par celui de votre choix, tant qu’il est plausible en fonction de ce que permettent les dés."
+  ]
+ },
+ {
+  "id": "arcane-10-21",
+  "nom": "Chute du ciel",
+  "domaine": "Arcane",
+  "type": "Sort",
+  "niveau": 10,
+  "rappel": 1,
+  "texte": [
+   "Effectuez un jet d’Incantation contre tous les adversaires à Longue portée. Cochez le nombre de Stress de votre choix pour faire pleuvoir des éclats de magie des cieux. Les cibles contre lesquelles vous réussissez votre jet subissent 1d20+2 dégâts magiques par Stress coché."
+  ]
+ },
+ {
+  "id": "codex-1-1",
+  "nom": "Livre d’Ava",
+  "domaine": "Codex",
+  "type": "Grimoire",
+  "niveau": 1,
+  "rappel": 2,
+  "texte": [
+   "Poussée magique. Effectuez un jet d’Incantation contre une cible en Mêlée. Sur un succès, elle est repoussée à Longue portée et subit d10+2 dégâts magiques basés sur votre Compétence.",
+   "Armure de Tava. Dépensez un Espoir pour donner un bonus de +1 à la Valeur d’armure d’une cible que vous touchez jusqu’à son prochain repos ou jusqu’à ce que vous relanciez Armure de Tava.",
+   "Pic de glace. Effectuez un jet d’Incantation (12) pour invoquer un grand pic de",
+   "glace à Longue portée. Si vous l’utilisez comme une arme, effectuez le jet d’Incantation contre la Difficulté de la cible à la place. Si vous réussissez, vous infligez d6 dégâts physiques, basés sur votre Compétence."
+  ]
+ },
+ {
+  "id": "codex-1-2",
+  "nom": "Livre d’Illiat",
+  "domaine": "Codex",
+  "type": "Grimoire",
+  "niveau": 1,
+  "rappel": 2,
+  "texte": [
+   "Sommeil. Effectuez un jet d’Incantation contre une cible à Très courte portée. Sur un succès, elle est Endormie jusqu’à ce qu’elle subisse des dégâts ou que le MJ dépense une Peur à son tour pour la débarrasser de cet état.",
+   "Tir de barrage magique. Une fois par repos, dépensez autant d’Espoirs que vous le souhaitez pour lancer des projectiles magiques sur une cible de votre choix à Courte portée. Lancez un nombre de d6 égal au nombre d’Espoirs dépensés et infligez cette quantité de dégâts magiques à la cible.",
+   "Télépathie. Dépensez un Espoir pour ouvrir un canal de communication mental avec une cible située dans votre champ de vision. Ce lien perdure jusqu’à votre prochain repos ou jusqu’à ce que vous relanciez Télépathie."
+  ]
+ },
+ {
+  "id": "codex-1-3",
+  "nom": "Livre de Tyfar",
+  "domaine": "Codex",
+  "type": "Grimoire",
+  "niveau": 1,
+  "rappel": 2,
+  "texte": [
+   "Flamme sauvage. Effectuez un jet d’Incantation contre un maximum de trois adversaires en Mêlée. Ceux contre lesquels vous remportez un succès subissent 2d6 dégâts magiques et doivent cocher un Stress tandis que des flammes jaillissent de votre main.",
+   "Main magique. Vous invoquez une main magique à Longue portée. Elle est de la même taille que la vôtre et dispose de la même force.",
+   "Brume mystérieuse. Effectuez un jet d’Incantation (13) pour lever un épais brouillard temporaire dans une zone stationnaire à Très courte portée. Il dissimule la zone et tout ce qui se trouve à l’intérieur."
+  ]
+ },
+ {
+  "id": "codex-2-4",
+  "nom": "Livre de Sitil",
+  "domaine": "Codex",
+  "type": "Grimoire",
+  "niveau": 2,
+  "rappel": 2,
+  "texte": [
+   "Ajuster l’apparence. Vous utilisez la magie pour modifier votre apparence et vos habits afin que l’on ne vous reconnaisse pas.",
+   "Parallèle. Dépensez 2 Espoirs pour lancer ce sort sur vous-même ou sur un allié à Courte portée. La prochaine fois que la cible fait une attaque, elle peut toucher une cible de plus située à portée et contre laquelle son attaque aurait été un succès. Vous ne pouvez maintenir ce sort que sur une créature à la fois.",
+   "Illusion. Effectuez un jet d’Incantation (14). Sur un succès, vous créez à Courte portée une illusion visuelle temporaire pas plus grande que vous. Elle perdure tant que vous la regardez. Elle résiste à un examen jusqu’à ce que l’observateur arrive en Mêlée."
+  ]
+ },
+ {
+  "id": "codex-2-5",
+  "nom": "Livre de Vagras",
+  "domaine": "Codex",
+  "type": "Grimoire",
+  "niveau": 2,
+  "rappel": 2,
+  "texte": [
+   "Verrou runique. Effectuez un jet d’Incantation (15) sur un objet que vous touchez et qui peut se fermer (comme un verrou, un coffre ou une boîte). Une fois par repos, sur un succès, vous pouvez verrouiller l’objet afin que seules les créatures de votre choix puissent l’ouvrir. Quelqu’un capable d’utiliser la magie et disposant d’une heure pour étudier le sort peut le lever.",
+   "Porte arcanique. Lorsque vous n’êtes pas en Mêlée avec un ou plusieurs adversaires, effectuez un jet d’Incantation (13). Sur un succès, dépensez un Espoir pour créer un portail menant de l’endroit où vous vous trouvez jusqu’à un point situé à Longue portée et dans votre champ de vision. Il se referme dès qu’une créature l’a franchi.",
+   "Révélation. Effectuez un jet d’Incantation. Tout ce qui se trouve caché par magie à Courte portée est révélé."
+  ]
+ },
+ {
+  "id": "codex-3-6",
+  "nom": "Livre de Korvax",
+  "domaine": "Codex",
+  "type": "Grimoire",
+  "niveau": 3,
+  "rappel": 2,
+  "texte": [
+   "Lévitation. Effectuez un jet d’Incantation pour soulever temporairement dans les airs une créature située dans votre champ de vision et la déplacer à Courte portée de sa position originelle.",
+   "Se rétracter. Dépensez un Espoir pour obliger une cible en Mêlée à faire un jet de réaction (15). Sur un échec, elle oublie la dernière minute de votre conversation. Cercle runique. Cochez un Stress pour dessiner un cercle magique temporaire au sol là où vous vous trouvez. Tous les adversaires en Mêlée ou qui approchent en Mêlée subissent 2d12+4 dégâts magiques et sont repoussés à Très courte portée."
+  ]
+ },
+ {
+  "id": "codex-3-7",
+  "nom": "Livre de Norai",
+  "domaine": "Codex",
+  "type": "Grimoire",
+  "niveau": 3,
+  "rappel": 2,
+  "texte": [
+   "Attache mystique. Effectuez un jet d’Incantation contre une cible à Longue portée. Sur un succès, elle est temporairement Bloquée et doit cocher un Stress. Si vous ciblez une créature volante, ce sort la ramène à terre et la Bloque temporairement.",
+   "Boule de feu. Effectuez un jet d’Incantation contre une cible à Très longue portée. Sur un succès, vous lancez une sphère de feu sur elle. Elle explose à l’impact. La cible et toutes les créatures à Très courte portée doivent faire un jet de réaction (13). Celles qui échouent subissent d20+5 dégâts magiques basés sur votre Compétence. Celles qui réussissent subissent seulement la moitié des dégâts."
+  ]
+ },
+ {
+  "id": "codex-4-8",
+  "nom": "Livre d’Exota",
+  "domaine": "Codex",
+  "type": "Grimoire",
+  "niveau": 4,
+  "rappel": 3,
+  "texte": [
+   "Répudier. Vous pouvez interrompre un effet magique en cours. Effectuez un jet de réaction basé sur votre trait d’Incantation. Une fois par repos, sur un succès, l’effet s’arrête et ses conséquences sont évitées.",
+   "Créer une créature artificielle. Dépensez un Espoir pour choisir un groupe d’objets autour de vous et vous en servir pour fabriquer une créature artificielle qui obéit à vos ordres basiques. Effectuez un jet d’Incantation pour lui ordonner de faire quelque chose. Si nécessaire, elle partage votre Esquive et vos traits. Ses attaques infligent 2d10+3 dégâts physiques. Vous ne pouvez animer qu’une créature artificielle à la fois et elle tombe en morceaux dès qu’elle subit le moindre dégât."
+  ]
+ },
+ {
+  "id": "codex-4-9",
+  "nom": "Livre de Grynn",
+  "domaine": "Codex",
+  "type": "Grimoire",
+  "niveau": 4,
+  "rappel": 2,
+  "texte": [
+   "Parade magique. Une fois par long repos, dépensez un Espoir pour annuler les dégâts d’une attaque prenant pour cible votre personne ou un allié à Très courte portée.",
+   "Gel temporel. Visez un objet à Longue portée. Cet objet se fige dans le temps et l’espace jusqu’à votre prochain repos. Si une créature tente de le déplacer, effectuez un jet d’Incantation contre elle pour maintenir le sort.",
+   "Mur de feu. Effectuez un jet d’Incantation (15). Sur un succès, vous créez un mur de flammes magiques temporaire entre deux points situés à Longue portée. Toutes les créatures situées sur son tracé doivent choisir de quel côté se mettre, sachant que tout ce qui traverse ensuite le mur subit 4d10+3 dégâts magiques."
+  ]
+ },
+ {
+  "id": "codex-5-10",
+  "nom": "Lever un mur",
+  "domaine": "Codex",
+  "type": "Sort",
+  "niveau": 5,
+  "rappel": 2,
+  "texte": [
+   "Effectuez un jet d’Incantation (15). Une fois par repos, sur un succès, dépensez un Espoir pour créer un mur magique temporaire entre deux points situés à Longue portée. Il peut mesurer jusqu’à 15 m de haut et former l’angle de votre choix. Les créatures situées sur son tracé sont projetées du côté de votre choix. Le mur reste debout jusqu’à votre prochain repos ou jusqu’à ce que vous lanciez de nouveau Lever un mur."
+  ]
+ },
+ {
+  "id": "codex-5-11",
+  "nom": "Téléportation",
+  "domaine": "Codex",
+  "type": "Sort",
+  "niveau": 5,
+  "rappel": 2,
+  "texte": [
+   "Une fois par long repos, vous pouvez vous téléporter instantanément, ainsi qu’autant de cibles volontaires à Courte portée que vous le désirez, en un lieu où vous vous êtes déjà rendu auparavant. Appliquez l’une des options suivantes et effectuez un jet d’Incantation (16) :",
+   "• Si vous connaissez bien le lieu, vous gagnez un bonus de +3.",
+   "• Si vous vous êtes souvent rendu en ce lieu, vous gagnez un bonus de +1.",
+   "• Si vous vous êtes parfois rendu en ce lieu, n’appliquez pas de modificateur.",
+   "• Si vous vous êtes rendu une seule fois en ce lieu, vous subissez un malus de −2.",
+   "Sur un succès, vous apparaissez là où vous comptiez vous rendre. Sur un échec, vous apparaissez ailleurs, l’ampleur de l’échec déterminant à quel point vous arrivez loin de votre destination."
+  ]
+ },
+ {
+  "id": "codex-6-12",
+  "nom": "Bannissement",
+  "domaine": "Codex",
+  "type": "Sort",
+  "niveau": 6,
+  "rappel": 0,
+  "texte": [
+   "Effectuez un jet d’Incantation contre une cible à Courte portée. Sur un succès, lancez un nombre de d20 égal à votre trait d’Incantation. La cible doit faire un jet de réaction avec une Difficulté égale à votre meilleur résultat. Sur un succès, elle doit cocher un Stress, mais elle n’est pas bannie. Une fois par repos, sur un échec, elle est bannie de ce royaume.",
+   "Quand les PJ font un jet avec Peur, la Difficulté s’accompagne d’un malus de −1 et la cible fait un autre jet de réaction. Sur un succès, elle revient de son bannissement."
+  ]
+ },
+ {
+  "id": "codex-6-13",
+  "nom": "Symbole punitif",
+  "domaine": "Codex",
+  "type": "Sort",
+  "niveau": 6,
+  "rappel": 2,
+  "texte": [
+   "Apposez un symbole punitif sur un adversaire à Courte portée. Le MJ gagne une Peur. Lorsque cet adversaire inflige des dégâts à vous ou à l’un de vos alliés, posez un d8 sur cette carte. Vous pouvez y placer un nombre de d8 égal à votre niveau. Lorsque vous réussissez une attaque contre l’adversaire marqué, lancez les dés présents sur cette carte et ajoutez leur total à votre jet de dégâts puis défaussez les dés. Cet effet se termine lorsque l’adversaire marqué est vaincu ou lorsque vous lancez de nouveau Symbole punitif."
+  ]
+ },
+ {
+  "id": "codex-7-14",
+  "nom": "Béni par le Codex",
+  "domaine": "Codex",
+  "type": "Capacité",
+  "niveau": 7,
+  "rappel": 2,
+  "texte": [
+   "Lorsque vous avez au moins 4 cartes du domaine du Codex dans votre main, vous gagnez les avantages suivants :",
+   "• Vous pouvez cocher un Stress pour ajouter votre Compétence à un jet d’Incantation.",
+   "• Une fois par repos, remplacez cette carte par n’importe quelle autre de votre caveau sans payer de Prix de rappel."
+  ]
+ },
+ {
+  "id": "codex-7-15",
+  "nom": "Livre d’Homet",
+  "domaine": "Codex",
+  "type": "Grimoire",
+  "niveau": 7,
+  "rappel": 0,
+  "texte": [
+   "Traversée. Effectuez un jet d’Incantation (13). Une fois par repos, sur un succès, vous et toutes les créatures que vous touchez pouvez passer à travers un mur ou une porte à Courte portée. L’effet se termine une fois tout le monde de l’autre côté.",
+   "Portail planaire. Effectuez un jet d’Incantation (14). Une fois par long repos, sur un succès, vous ouvrez un portail vers un lieu situé dans une autre dimension ou sur un autre plan d’existence où vous vous êtes déjà rendu. Ce portail persiste jusqu’à votre prochain repos."
+  ]
+ },
+ {
+  "id": "codex-8-16",
+  "nom": "Livre de Vyola",
+  "domaine": "Codex",
+  "type": "Grimoire",
+  "niveau": 8,
+  "rappel": 2,
+  "texte": [
+   "Plongée dans les souvenirs. Effectuez un jet d’Incantation contre une cible à Longue portée. Sur un succès, vous plongez dans son esprit et posez une question au MJ. Il vous décrit les souvenirs que la cible possède en lien avec la réponse.",
+   "Clarté partagée. Une fois par long repos, dépensez un Espoir pour choisir deux créatures consentantes. Quand l’une devrait cocher un Stress, elles peuvent choisir laquelle des deux le coche. Le sort perdure jusqu’à leur prochain repos."
+  ]
+ },
+ {
+  "id": "codex-8-17",
+  "nom": "Refuge",
+  "domaine": "Codex",
+  "type": "Sort",
+  "niveau": 8,
+  "rappel": 3,
+  "texte": [
+   "Lorsque vous disposez de quelques minutes de calme pour vous concentrer, vous pouvez dépenser 2 Espoirs pour invoquer votre Refuge, une vaste demeure interdimensionnelle où vous pouvez vous réfugier avec vos alliés. Une porte magique apparaît alors quelque part à Courte portée. Seules les créatures de votre choix peuvent entrer. Une fois à l’intérieur, vous pouvez rendre l’entrée invisible. Vous et tous les gens à l’intérieur pouvez toujours sortir. Une fois que vous êtes sortis, il faut de nouveau invoquer la porte.",
+   "Lorsque vous vous reposez dans votre Refuge, vous pouvez choisir un acte de pause supplémentaire."
+  ]
+ },
+ {
+  "id": "codex-9-18",
+  "nom": "Livre de Ronin",
+  "domaine": "Codex",
+  "type": "Grimoire",
+  "niveau": 9,
+  "rappel": 4,
+  "texte": [
+   "Transformation. Effectuez un jet d’Incantation (15). Sur un succès, vous vous changez en un objet inanimé d’au maximum deux fois votre taille normale. Vous pouvez rester ainsi jusqu’à ce que vous subissiez des dégâts.",
+   "Affaiblissement éternel. Une fois par long repos, effectuez un jet d’Incantation contre une cible à Courte portée. Sur un succès, elle devient définitivement Vulnérable. Elle ne peut pas se débarrasser de cet état, par quelque moyen que ce soit."
+  ]
+ },
+ {
+  "id": "codex-9-19",
+  "nom": "Vague de désintégration",
+  "domaine": "Codex",
+  "type": "Sort",
+  "niveau": 9,
+  "rappel": 4,
+  "texte": [
+   "Effectuez un jet d’Incantation (18). Une fois par long repos, sur un succès, le MJ vous indique quels adversaires situés à Longue portée ont une Difficulté de 18 ou moins. Cochez un Stress pour chaque adversaire que vous désirez frapper avec ce sort. Ils périssent sur-le-champ et ne peuvent pas revenir à la vie, par quelque moyen que ce soit."
+  ]
+ },
+ {
+  "id": "codex-10-20",
+  "nom": "Livre de Yarrow",
+  "domaine": "Codex",
+  "type": "Grimoire",
+  "niveau": 10,
+  "rappel": 2,
+  "texte": [
+   "Perturbateur temporel. Effectuez un jet d’Incantation (18). Sur un succès, le temps s’arrête temporairement pour toutes les créatures à Longue portée sauf vous. Il reprend son cours normal pour elles lors de votre prochain jet d’action visant une autre créature.",
+   "Immunité contre la magie. Dépensez 5 Espoirs pour devenir immunisé contre les dégâts magiques jusqu’à votre prochain repos."
+  ]
+ },
+ {
+  "id": "codex-10-21",
+  "nom": "Union transcendantale",
+  "domaine": "Codex",
+  "type": "Sort",
+  "niveau": 10,
+  "rappel": 1,
+  "texte": [
+   "Une fois par long repos, dépensez 5 Espoirs pour lancer ce sort sur deux créatures consentantes ou plus. Jusqu’à votre prochain repos, toutes les créatures liées par cette union choisissent laquelle coche un Stress ou un point de Blessure lorsque l’une d’elles doit en cocher un."
+  ]
+ },
+ {
+  "id": "grace-1-1",
+  "nom": "Escroc habile",
+  "domaine": "Grâce",
+  "type": "Capacité",
+  "niveau": 1,
+  "rappel": 0,
+  "texte": [
+   "Dépensez un Espoir pour obtenir un avantage sur un jet destiné à duper quelqu’un ou à lui faire croire à un mensonge que vous lui racontez."
+  ]
+ },
+ {
+  "id": "grace-1-2",
+  "nom": "Fascination",
+  "domaine": "Grâce",
+  "type": "Sort",
+  "niveau": 1,
+  "rappel": 0,
+  "texte": [
+   "Effectuez un jet d’Incantation contre une cible à Courte portée. Sur un succès, elle devient temporairement Fascinée. Tant qu’elle est Fascinée, elle garde son",
+   "attention fixée sur vous, ce qui rétrécit son champ de vision et étouffe tous les sons autres que celui de votre voix. Une fois par repos, sur un succès, vous pouvez cocher un Stress pour obliger une cible Fascinée à en cocher un aussi."
+  ]
+ },
+ {
+  "id": "grace-1-3",
+  "nom": "Paroles inspirantes",
+  "domaine": "Grâce",
+  "type": "Capacité",
+  "niveau": 1,
+  "rappel": 1,
+  "texte": [
+   "Vos paroles sont empreintes de puissance. Après un long repos, posez sur cette carte un nombre de jetons égal à votre Présence. Lorsque vous parlez avec un allié, vous pouvez dépenser un jeton provenant de cette carte pour lui donner un bénéfice parmi les suivants :",
+   "• Il efface un Stress.",
+   "• Il efface un point de Blessure.",
+   "• Il gagne un Espoir.",
+   "Lorsque vous prenez un long repos, les jetons non dépensés sont perdus."
+  ]
+ },
+ {
+  "id": "grace-2-4",
+  "nom": "Fauteur de troubles",
+  "domaine": "Grâce",
+  "type": "Capacité",
+  "niveau": 2,
+  "rappel": 2,
+  "texte": [
+   "Lorsque vous provoquez une cible à Longue portée, effectuez un jet de Présence contre elle. Une fois par repos, sur un succès, lancez un nombre de d4 égal à votre Compétence. La cible doit cocher un nombre de Stress égal au plus haut résultat obtenu."
+  ]
+ },
+ {
+  "id": "grace-2-5",
+  "nom": "Pas de mensonges",
+  "domaine": "Grâce",
+  "type": "Sort",
+  "niveau": 2,
+  "rappel": 1,
+  "texte": [
+   "Effectuez un jet d’Incantation contre une cible à Très courte portée. Sur un succès, elle ne peut pas vous mentir tant qu’elle se trouve à Courte portée, mais rien ne l’oblige à parler. Si vous lui posez une question et qu’elle refuse de répondre, elle doit cocher un Stress et l’effet se termine. La cible ignore généralement qu’elle est affectée par ce sort jusqu’à ce qu’il la force à dire la vérité."
+  ]
+ },
+ {
+  "id": "grace-3-6",
+  "nom": "Invisibilité",
+  "domaine": "Grâce",
+  "type": "Sort",
+  "niveau": 3,
+  "rappel": 1,
+  "texte": [
+   "Effectuez un jet d’Incantation (10). Sur un succès, cochez un Stress et rendez un allié en Mêlée ou vous-même Invisible. Personne ne voit une créature Invisible à moins de recourir à des moyens magiques et les jets d’attaque à son encontre subissent un désavantage. Posez sur cette carte un nombre de jetons égal à votre trait d’Incantation. Quand une créature Invisible entreprend une action, retirez un jeton de cette carte. L’effet du sort se termine une fois l’action associée au dernier jeton terminée.",
+   "Vous ne pouvez maintenir ce sort que sur une créature à la fois."
+  ]
+ },
+ {
+  "id": "grace-3-7",
+  "nom": "Scintillement hypnotique",
+  "domaine": "Grâce",
+  "type": "Sort",
+  "niveau": 3,
+  "rappel": 1,
+  "texte": [
+   "Effectuez un jet d’Incantation contre tous les adversaires situés devant vous à Courte portée. Une fois par repos, sur un succès, vous créez une illusion faite de couleurs étincelantes et de lumières qui Étourdissent temporairement les cibles contre lesquelles vous avez remporté un succès et les obligent à cocher un Stress. Tant qu’elles sont Étourdies, elles ne peuvent pas utiliser de réaction ni entreprendre d’action tant qu’elles ne se sont pas débarrassées de cet état."
+  ]
+ },
+ {
+  "id": "grace-4-8",
+  "nom": "À travers tes yeux",
+  "domaine": "Grâce",
+  "type": "Sort",
+  "niveau": 4,
+  "rappel": 1,
+  "texte": [
+   "Choisissez une cible à Très courte portée. Vous voyez à travers ses yeux et entendez par ses oreilles. Vous pouvez passer librement de vos propres sens aux siens et inversement jusqu’à ce que vous lanciez un autre sort ou jusqu’à votre prochain repos."
+  ]
+ },
+ {
+  "id": "grace-4-9",
+  "nom": "Discours apaisant",
+  "domaine": "Grâce",
+  "type": "Capacité",
+  "niveau": 4,
+  "rappel": 1,
+  "texte": [
+   "Pendant un court repos, lorsque vous prenez le temps de réconforter un autre personnage lors de l’acte de pause Soigner des blessures, vous lui effacez un point de Blessure supplémentaire. Dans ce cas, vous effacez aussi 2 points de Blessure sur vous-même."
+  ]
+ },
+ {
+  "id": "grace-5-10",
+  "nom": "Mots de discorde",
+  "domaine": "Grâce",
+  "type": "Sort",
+  "niveau": 5,
+  "rappel": 1,
+  "texte": [
+   "Murmurez des paroles de discorde à un adversaire en Mêlée et effectuez un jet d’Incantation (13). Sur un succès, la cible doit cocher un Stress et faire une attaque contre un autre adversaire au lieu de la faire contre vous ou l’un de vos alliés.",
+   "Elle réalise ce qui vient de se passer une fois l’attaque terminée. La prochaine fois que vous lancez Mots de discorde contre elle, vous subissez un malus de −5 au jet d’Incantation."
+  ]
+ },
+ {
+  "id": "grace-5-11",
+  "nom": "Plongée dans les pensées",
+  "domaine": "Grâce",
+  "type": "Sort",
+  "niveau": 5,
+  "rappel": 2,
+  "texte": [
+   "Vous pouvez sonder l’esprit d’autrui. Dépensez un Espoir pour lire les pensées de surface vagues d’une cible à Longue portée. Effectuez un jet d’Incantation contre elle pour plonger plus profondément vers des pensées mieux dissimulées.",
+   "Sur un jet avec Peur, la cible peut se rendre compte que vous lisez dans son esprit, à la discrétion du MJ."
+  ]
+ },
+ {
+  "id": "grace-6-12",
+  "nom": "Jamais éclipsé",
+  "domaine": "Grâce",
+  "type": "Capacité",
+  "niveau": 6,
+  "rappel": 2,
+  "texte": [
+   "Lorsque vous cochez 1 ou plusieurs points de Blessure à cause d’une attaque, vous pouvez cocher un Stress pour poser sur cette carte un nombre de jetons égal au nombre de points de Blessure cochés. Lors de votre prochaine attaque réussie, vous gagnez un bonus de +5 au jet de dégâts par jeton présent sur cette carte puis vous les défaussez."
+  ]
+ },
+ {
+  "id": "grace-6-13",
+  "nom": "Partager le fardeau",
+  "domaine": "Grâce",
+  "type": "Sort",
+  "niveau": 6,
+  "rappel": 0,
+  "texte": [
+   "Une fois par repos, vous récupérez le Stress d’une créature consentante en Mêlée. Elle décrit les connaissances intimes ou les émotions qui filtrent de son esprit dans cet instant partagé. Transférez le nombre de Stress cochés que vous souhaitez d’elle à vous, puis gagnez un Espoir par Stress récupéré."
+  ]
+ },
+ {
+  "id": "grace-7-14",
+  "nom": "Béni par la Grâce",
+  "domaine": "Grâce",
+  "type": "Capacité",
+  "niveau": 7,
+  "rappel": 2,
+  "texte": [
+   "Lorsque vous avez au moins 4 cartes du domaine de la Grâce dans votre main, vous gagnez les avantages suivants :",
+   "• Vous pouvez cocher un Emplacement d’armure au lieu de cocher un Stress.",
+   "• Lorsque vous devriez obliger une cible à cocher un ou plusieurs points de Blessure, vous pouvez à la place la forcer à cocher un nombre égal de Stress."
+  ]
+ },
+ {
+  "id": "grace-7-15",
+  "nom": "Charisme infini",
+  "domaine": "Grâce",
+  "type": "Capacité",
+  "niveau": 7,
+  "rappel": 1,
+  "texte": [
+   "Après un jet d’action visant à persuader quelqu’un, à mentir ou à vous attirer des faveurs, vous pouvez dépenser un Espoir pour relancer le dé d’Espoir ou de Peur."
+  ]
+ },
+ {
+  "id": "grace-8-16",
+  "nom": "Fascination de masse",
+  "domaine": "Grâce",
+  "type": "Sort",
+  "niveau": 8,
+  "rappel": 3,
+  "texte": [
+   "Effectuez un jet d’Incantation contre toutes les cibles à Longue portée. Celles contre lesquelles vous remportez un succès sont temporairement Fascinées. Tant qu’elle est Fascinée, une cible garde son attention fixée sur vous, ce qui rétrécit son champ de vision et étouffe tous les sons autres que celui de votre voix. Cochez un Stress pour obliger toutes les cibles Fascinées à cocher un Stress, ce qui met fin au sort."
+  ]
+ },
+ {
+  "id": "grace-8-17",
+  "nom": "Projection astrale",
+  "domaine": "Grâce",
+  "type": "Sort",
+  "niveau": 8,
+  "rappel": 0,
+  "texte": [
+   "Une fois par long repos, cochez un Stress pour créer une projection de vous qui apparaît en un endroit où vous vous êtes déjà rendu.",
+   "Vous entendez et voyez par les sens de la projection comme si elle était votre personne réelle et vous pouvez de même influer sur le monde comme si vous vous trouviez réellement à sa place. Une créature qui inspecte la projection est incapable de deviner son origine magique. L’effet persiste jusqu’à votre prochain repos ou jusqu’à ce que la projection subisse des dégâts."
+  ]
+ },
+ {
+  "id": "grace-9-18",
+  "nom": "Copieur",
+  "domaine": "Grâce",
+  "type": "Sort",
+  "niveau": 9,
+  "rappel": 3,
+  "texte": [
+   "Une fois par long repos, cette carte peut imiter les aptitudes d’une autre carte de domaine de niveau 8 ou moins présente dans la main d’un autre joueur. Dépensez un montant d’Espoir égal à la moitié du niveau de la carte copiée pour accéder à ses aptitudes. Cela fonctionne jusqu’à votre prochain repos ou jusqu’à ce que le détenteur de la carte copiée la place dans son caveau."
+  ]
+ },
+ {
+  "id": "grace-9-19",
+  "nom": "Maître en la matière",
+  "domaine": "Grâce",
+  "type": "Capacité",
+  "niveau": 9,
+  "rappel": 0,
+  "texte": [
+   "Gagnez un bonus permanent de +2 à deux de vos Expériences ou un bonus permanent de +3 à l’une de vos Expériences. Placez ensuite cette carte dans votre caveau de façon permanente."
+  ]
+ },
+ {
+  "id": "grace-10-20",
+  "nom": "Célèbre",
+  "domaine": "Grâce",
+  "type": "Capacité",
+  "niveau": 10,
+  "rappel": 0,
+  "texte": [
+   "Les gens savent qui vous êtes et ce que vous avez accompli et vous traitent en conséquence. Si vous profitez de votre notoriété pour obtenir ce que vous voulez, vous pouvez cocher un Stress avant de lancer les dés pour ajouter un bonus de +10 au résultat. Où que vous alliez, on ne vous fait jamais payer le boire et le manger et tout ce que vous achetez bénéficie d’une réduction d’un sac d’or (une poignée au minimum).",
+   "Cette carte ne compte pas dans la limite des cinq cartes de domaine de votre main et ne peut jamais aller dans votre caveau."
+  ]
+ },
+ {
+  "id": "grace-10-21",
+  "nom": "Encore",
+  "domaine": "Grâce",
+  "type": "Sort",
+  "niveau": 10,
+  "rappel": 1,
+  "texte": [
+   "Lorsqu’un allié à Courte portée inflige des dégâts à un adversaire, vous pouvez faire un jet d’Incantation contre ce dernier. Sur un succès, vous lui infligez les mêmes dégâts que votre allié. Si votre jet d’Incantation s’est soldé par un succès avec Peur, placez cette carte dans votre caveau."
+  ]
+ },
+ {
+  "id": "lame-1-1",
+  "nom": "Peut mieux faire",
+  "domaine": "Lame",
+  "type": "Capacité",
+  "niveau": 1,
+  "rappel": 1,
+  "texte": [
+   "Lorsque vous lancez vos dés de dégâts, vous pouvez relancer tous les 1 et 2."
+  ]
+ },
+ {
+  "id": "lame-1-2",
+  "nom": "Se remettre",
+  "domaine": "Lame",
+  "type": "Capacité",
+  "niveau": 1,
+  "rappel": 1,
+  "texte": [
+   "Lorsque vous subissez des dégâts Graves, vous pouvez cocher un Stress pour réduire leur gravité d’un seuil."
+  ]
+ },
+ {
+  "id": "lame-1-3",
+  "nom": "Tourbillon",
+  "domaine": "Lame",
+  "type": "Capacité",
+  "niveau": 1,
+  "rappel": 0,
+  "texte": [
+   "Quand vous réussissez une attaque contre une cible à Très courte portée, vous pouvez dépenser un Espoir pour utiliser l’attaque contre toutes les autres cibles à Très courte portée. Tous les adversaires supplémentaires contre lesquels vous parvenez à utiliser cette capacité subissent la moitié des dégâts."
+  ]
+ },
+ {
+  "id": "lame-2-4",
+  "nom": "Les liens des soldats",
+  "domaine": "Lame",
+  "type": "Capacité",
+  "niveau": 2,
+  "rappel": 1,
+  "texte": [
+   "Une fois par long repos, lorsque vous faites des compliments à quelqu’un ou lui demandez de vous parler d’une chose pour laquelle il est doué, vous gagnez tous deux 3 Espoirs."
+  ]
+ },
+ {
+  "id": "lame-2-5",
+  "nom": "Téméraire",
+  "domaine": "Lame",
+  "type": "Capacité",
+  "niveau": 2,
+  "rappel": 1,
+  "texte": [
+   "Cochez un Stress pour obtenir un avantage sur une attaque."
+  ]
+ },
+ {
+  "id": "lame-3-6",
+  "nom": "Combattant polyvalent",
+  "domaine": "Lame",
+  "type": "Capacité",
+  "niveau": 3,
+  "rappel": 1,
+  "texte": [
+   "Pour l’arme que vous avez équipée, vous pouvez utiliser un trait de personnage différent de celui qu’elle exige habituellement.",
+   "Lorsque vous infligez des dégâts, vous pouvez cocher un Stress pour utiliser le résultat maximal de l’un de vos dés de dégâts plutôt que de le lancer."
+  ]
+ },
+ {
+  "id": "lame-3-7",
+  "nom": "Retrait rapide",
+  "domaine": "Lame",
+  "type": "Capacité",
+  "niveau": 3,
+  "rappel": 1,
+  "texte": [
+   "Une fois par repos, lorsqu’une créature en Mêlée devrait vous infliger des dégâts, vous pouvez éviter son attaque et reculer en sécurité hors de sa zone de Mêlée."
+  ]
+ },
+ {
+  "id": "lame-4-8",
+  "nom": "Armure renforcée",
+  "domaine": "Lame",
+  "type": "Capacité",
+  "niveau": 4,
+  "rappel": 0,
+  "texte": [
+   "Tant que vous portez une armure, vous gagnez un bonus de +2 à vos seuils de dégâts."
+  ]
+ },
+ {
+  "id": "lame-4-9",
+  "nom": "Concentration mortelle",
+  "domaine": "Lame",
+  "type": "Capacité",
+  "niveau": 4,
+  "rappel": 2,
+  "texte": [
+   "Une fois par repos, vous pouvez vous concentrer entièrement sur une cible de votre choix. Vous gagnez un bonus de +1 à la Compétence jusqu’à ce que vous attaquiez une autre créature, que vous triomphiez de votre cible ou que la bataille se termine."
+  ]
+ },
+ {
+  "id": "lame-5-10",
+  "nom": "Avantage du champion",
+  "domaine": "Lame",
+  "type": "Capacité",
+  "niveau": 5,
+  "rappel": 1,
+  "texte": [
+   "Lorsque vous remportez un succès critique sur une attaque, vous pouvez dépenser jusqu’à 3 Espoirs et choisir l’une des options suivantes pour chaque Espoir dépensé.",
+   "• Vous effacez un point de Blessure.",
+   "• Vous effacez un Emplacement d’armure.",
+   "• La cible doit cocher un point de Blessure supplémentaire.",
+   "Vous ne pouvez pas choisir la même option à plusieurs reprises."
+  ]
+ },
+ {
+  "id": "lame-5-11",
+  "nom": "Vitalité",
+  "domaine": "Lame",
+  "type": "Capacité",
+  "niveau": 5,
+  "rappel": 0,
+  "texte": [
+   "Lorsque vous choisissez cette carte, vous gagnez l’un des bénéfices suivants de façon permanente.",
+   "• Un emplacement de Stress",
+   "• Un emplacement de point de Blessure",
+   "• Un bonus de +2 à vos seuils de dégâts",
+   "Placez ensuite cette carte dans votre caveau de façon permanente."
+  ]
+ },
+ {
+  "id": "lame-6-12",
+  "nom": "Endurci par les batailles",
+  "domaine": "Lame",
+  "type": "Capacité",
+  "niveau": 6,
+  "rappel": 2,
+  "texte": [
+   "Une fois par long repos, lorsque vous devriez faire un acte de mort, vous pouvez dépenser un Espoir à la place pour effacer un point de Blessure."
+  ]
+ },
+ {
+  "id": "lame-6-13",
+  "nom": "Rager",
+  "domaine": "Lame",
+  "type": "Capacité",
+  "niveau": 6,
+  "rappel": 1,
+  "texte": [
+   "Vous pouvez cocher un Stress avant de faire une attaque pour gagner un bonus au jet de dégâts égal au double de votre Force.",
+   "Vous pouvez Rager deux fois par attaque."
+  ]
+ },
+ {
+  "id": "lame-7-14",
+  "nom": "Béni par la Lame",
+  "domaine": "Lame",
+  "type": "Capacité",
+  "niveau": 7,
+  "rappel": 1,
+  "texte": [
+   "Lorsque vous avez au moins 4 cartes du domaine de la Lame dans votre main, vous gagnez les avantages suivants :",
+   "• Bonus de +2 aux jets d’attaque",
+   "• Bonus de +4 à votre seuil de dégâts Graves"
+  ]
+ },
+ {
+  "id": "lame-7-15",
+  "nom": "Éraflure",
+  "domaine": "Lame",
+  "type": "Capacité",
+  "niveau": 7,
+  "rappel": 1,
+  "texte": [
+   "Lorsque vous ratez une attaque, vous pouvez cocher un Stress pour infliger tout de même les dégâts de l’arme en utilisant la moitié de votre Compétence."
+  ]
+ },
+ {
+  "id": "lame-8-16",
+  "nom": "Cri de guerre",
+  "domaine": "Lame",
+  "type": "Capacité",
+  "niveau": 8,
+  "rappel": 2,
+  "texte": [
+   "Une fois par long repos, lorsque vous chargez face au danger, vous pouvez pousser un cri exaltant qui inspire vos alliés. Tous les alliés qui vous entendent effacent un Stress et gagnent un Espoir. De plus, vos alliés disposent d’un avantage sur les jets d’attaque jusqu’à ce que vous ou l’un d’eux obteniez un échec avec Peur."
+  ]
+ },
+ {
+  "id": "lame-8-17",
+  "nom": "Frénésie",
+  "domaine": "Lame",
+  "type": "Capacité",
+  "niveau": 8,
+  "rappel": 3,
+  "texte": [
+   "Une fois par long repos, vous pouvez entrer en Frénésie jusqu’à ce qu’il n’y ait plus d’adversaires en vue.",
+   "Tant que vous êtes Frénétique, vous ne pouvez plus utiliser d’Emplacements d’armure, mais vous gagnez un bonus de +10 aux jets de dégâts et un bonus de +8 à votre seuil de dégâts Graves."
+  ]
+ },
+ {
+  "id": "lame-9-18",
+  "nom": "Frappe de la faucheuse",
+  "domaine": "Lame",
+  "type": "Capacité",
+  "niveau": 9,
+  "rappel": 3,
+  "texte": [
+   "Une fois par long repos, dépensez un Espoir pour faire un jet d’attaque. Le MJ vous annonce contre quelles cibles à portée elle peut se traduire par un succès.",
+   "Choisissez l’une d’elles : elle doit cocher 5 points de Blessure."
+  ]
+ },
+ {
+  "id": "lame-9-19",
+  "nom": "L’ichor et la gloire",
+  "domaine": "Lame",
+  "type": "Capacité",
+  "niveau": 9,
+  "rappel": 2,
+  "texte": [
+   "Lorsque vous remportez un succès critique sur une attaque avec une arme, vous gagnez un Espoir de plus et vous effacez un Stress supplémentaire.",
+   "De plus, lorsque vous infligez assez de dégâts pour vaincre un ennemi, vous gagnez un Espoir ou effacez un Stress."
+  ]
+ },
+ {
+  "id": "lame-10-20",
+  "nom": "Assaut",
+  "domaine": "Lame",
+  "type": "Capacité",
+  "niveau": 10,
+  "rappel": 3,
+  "texte": [
+   "Lorsque vous réussissez une attaque avec une arme, les dégâts que vous infligez ne sont jamais inférieurs au seuil de dégâts Majeurs de la cible (qui coche donc toujours au minimum 2 points de Blessure).",
+   "De plus, lorsqu’une créature à portée de votre arme inflige des dégâts à un de vos alliés avec une attaque qui ne vous englobe pas, vous pouvez cocher un Stress pour l’obliger à faire un jet de réaction (15). Sur un échec, cette créature doit cocher un point de Blessure."
+  ]
+ },
+ {
+  "id": "lame-10-21",
+  "nom": "Monstre de guerre",
+  "domaine": "Lame",
+  "type": "Capacité",
+  "niveau": 10,
+  "rappel": 0,
+  "texte": [
+   "Lorsque vous réussissez une attaque contre un adversaire, au lieu de lancer les dés pour connaître les dégâts, vous pouvez cocher 4 Stress pour l’obliger à cocher un nombre de points de Blessure égal au nombre de points de Blessure actuellement cochés sur votre propre feuille."
+  ]
+ },
+ {
+  "id": "minuit-1-1",
+  "nom": "Crocheter et subtiliser",
+  "domaine": "Minuit",
+  "type": "Capacité",
+  "niveau": 1,
+  "rappel": 0,
+  "texte": [
+   "Vous recevez un avantage sur les jets d’action pour crocheter des serrures non magiques, désarmer des pièges non magiques ou voler un objet à une cible (soit discrètement, soit en recourant à la force)."
+  ]
+ },
+ {
+  "id": "minuit-1-2",
+  "nom": "Habile déguisement",
+  "domaine": "Minuit",
+  "type": "Sort",
+  "niveau": 1,
+  "rappel": 0,
+  "texte": [
+   "Si vous avez quelques minutes pour vous préparer, vous pouvez cocher un Stress pour prendre l’apparence d’un humanoïde que vous pouvez facilement visualiser dans votre tête. Ainsi déguisé, vous recevez un avantage sur les jets de Présence pour résister à un examen approfondi.",
+   "Posez sur cette carte un nombre de jetons égal à votre trait d’Incantation. Lorsque vous effectuez un jet d’action",
+   "ainsi déguisé, dépensez un jeton de cette carte. Le déguisement disparaît une fois l’action associée au dernier jeton terminée."
+  ]
+ },
+ {
+  "id": "minuit-1-3",
+  "nom": "Pluie de lames",
+  "domaine": "Minuit",
+  "type": "Sort",
+  "niveau": 1,
+  "rappel": 1,
+  "texte": [
+   "Dépensez un Espoir pour effectuer un jet d’Incantation et invoquer des couteaux de lancer qui filent en direction de toutes les cibles à Très courte portée. Celles contre lesquelles vous remportez un succès subissent d8+2 dégâts magiques basés sur votre Compétence.",
+   "Si vous touchez une cible Vulnérable, elle subit 1d8 dégâts de plus."
+  ]
+ },
+ {
+  "id": "minuit-2-4",
+  "nom": "Esprit de minuit",
+  "domaine": "Minuit",
+  "type": "Sort",
+  "niveau": 2,
+  "rappel": 1,
+  "texte": [
+   "Dépensez un Espoir pour invoquer un esprit de taille humanoïde capable de",
+   "porter ou déplacer des choses pour vous jusqu’à votre prochain repos.",
+   "Vous pouvez aussi l’envoyer attaquer un adversaire. Dans ce cas, effectuez un jet d’Incantation contre une cible à Très longue portée. Sur un succès, l’esprit s’approche de la cible jusqu’à arriver en Mêlée. Lancez un nombre de d6 égal à votre trait d’Incantation et infligez cette quantité de dégâts magiques à la cible. L’esprit disparaît ensuite. Vous ne pouvez avoir qu’un seul esprit à la fois."
+  ]
+ },
+ {
+  "id": "minuit-2-5",
+  "nom": "Ombre bloquante",
+  "domaine": "Minuit",
+  "type": "Sort",
+  "niveau": 2,
+  "rappel": 0,
+  "texte": [
+   "Effectuez un jet d’Incantation contre tous les adversaires à Très courte portée. Ceux contre lesquels vous réussissez sont temporairement Bloqués par leur ombre qui les maintient en place."
+  ]
+ },
+ {
+  "id": "minuit-3-6",
+  "nom": "Étranglement",
+  "domaine": "Minuit",
+  "type": "Capacité",
+  "niveau": 3,
+  "rappel": 1,
+  "texte": [
+   "Lorsque vous vous placez derrière une créature approximativement de votre taille, vous pouvez cocher un Stress pour l’étrangler, ce qui la rend temporairement Vulnérable.",
+   "Quand une créature attaque une cible rendue ainsi Vulnérable, elle lui inflige 2d6 dégâts supplémentaires."
+  ]
+ },
+ {
+  "id": "minuit-3-7",
+  "nom": "Voile nocturne",
+  "domaine": "Minuit",
+  "type": "Sort",
+  "niveau": 3,
+  "rappel": 1,
+  "texte": [
+   "Effectuez un jet d’Incantation (13). Sur un succès, vous pouvez créer un rideau d’obscurité temporaire entre deux points situés à Longue portée. Vous êtes le seul capable de voir à travers cette obscurité. Vous êtes considéré comme Caché aux yeux des adversaires situés de l’autre côté du voile et vous disposez d’un avantage sur les attaques effectuées au travers. Le voile reste en place jusqu’à ce que vous lanciez un autre sort."
+  ]
+ },
+ {
+  "id": "minuit-4-8",
+  "nom": "Expert en discrétion",
+  "domaine": "Minuit",
+  "type": "Capacité",
+  "niveau": 4,
+  "rappel": 0,
+  "texte": [
+   "Lorsque vous effectuez un jet avec Peur alors que vous essayez de vous déplacer sans vous faire remarquer dans une zone dangereuse, vous pouvez cocher un Stress pour obtenir à la place un jet avec Espoir.",
+   "Si un allié à Courte portée tente aussi de se déplacer discrètement et fait un jet avec Peur, vous pouvez cocher un Stress pour transformer son résultat en jet avec Espoir."
+  ]
+ },
+ {
+  "id": "minuit-4-9",
+  "nom": "Glyphe du crépuscule",
+  "domaine": "Minuit",
+  "type": "Sort",
+  "niveau": 4,
+  "rappel": 1,
+  "texte": [
+   "Effectuez un jet d’Incantation contre une cible à Très courte portée. Sur un succès, dépensez un Espoir pour invoquer un sombre glyphe sur son corps. Il révèle temporairement ses faiblesses et réduit sa Difficulté d’un montant égal à votre Savoir (minimum 1)."
+  ]
+ },
+ {
+  "id": "minuit-5-10",
+  "nom": "Retraite fantôme",
+  "domaine": "Minuit",
+  "type": "Sort",
+  "niveau": 5,
+  "rappel": 2,
+  "texte": [
+   "Dépensez un Espoir pour activer Retraite fantôme là où vous vous trouvez actuellement. Dépensez un autre Espoir plus tard, mais avant votre prochain repos, pour disparaître de l’endroit où vous êtes et réapparaître là où vous avez activé Retraite fantôme. Le sort se termine une fois que vous êtes réapparu."
+  ]
+ },
+ {
+  "id": "minuit-5-11",
+  "nom": "Silence",
+  "domaine": "Minuit",
+  "type": "Sort",
+  "niveau": 5,
+  "rappel": 1,
+  "texte": [
+   "Effectuez un jet d’Incantation contre une cible à Courte portée. Sur un succès, dépensez un Espoir pour invoquer une magie répressive autour d’elle. Elle englobe tout ce qui se trouve à Très courte portée de la cible et se déplace avec elle.",
+   "La cible et tout ce qui se trouve dans la zone sont Réduits au silence jusqu’à ce que le MJ dépense une Peur à son tour pour éliminer cet état, que vous lanciez de nouveau Chut ou que vous subissiez des dégâts Majeurs. Une cible Réduite au silence ne peut pas faire de bruit ni lancer de sorts."
+  ]
+ },
+ {
+  "id": "minuit-6-12",
+  "nom": "Déguisement de masse",
+  "domaine": "Minuit",
+  "type": "Sort",
+  "niveau": 6,
+  "rappel": 0,
+  "texte": [
+   "Lorsque vous avez quelques minutes de silence pour vous concentrer, vous pouvez cocher un Stress pour changer l’apparence de toutes les créatures consentantes à Courte portée. Leur nouvelle silhouette doit partager une structure corporelle et une taille similaire. Elle peut correspondre à quelqu’un ou quelque chose que vous avez déjà vu ou sortir entièrement de votre imagination. Ainsi déguisées, elles reçoivent un avantage sur leurs jets de Présence pour résister à un examen approfondi.",
+   "Activez un compte à rebours (8). Il diminue en fonction d’un élément défini par le MJ. Quand il se déclenche, le déguisement se dissipe."
+  ]
+ },
+ {
+  "id": "minuit-6-13",
+  "nom": "Sombres murmures",
+  "domaine": "Minuit",
+  "type": "Sort",
+  "niveau": 6,
+  "rappel": 0,
+  "texte": [
+   "Vous pouvez parler dans l’esprit de toute personne avec qui vous avez eu un contact physique. Une fois que vous avez ouvert un canal avec elle, elle peut vous répondre dans votre esprit. De plus, vous pouvez cocher un Stress pour faire un jet d’Incantation contre elle. Sur un succès, vous pouvez poser l’une des questions suivantes au MJ qui devra vous répondre.",
+   "• Où est-elle ?",
+   "• Que fait-elle ?",
+   "• De quoi a-t-elle peur ?",
+   "• Qu’aime-t-elle plus que tout au monde ?"
+  ]
+ },
+ {
+  "id": "minuit-7-14",
+  "nom": "Béni par minuit",
+  "domaine": "Minuit",
+  "type": "Capacité",
+  "niveau": 7,
+  "rappel": 2,
+  "texte": [
+   "Lorsque vous avez au moins 4 cartes du domaine de Minuit dans votre main, vous gagnez les avantages suivants :",
+   "• Une fois par repos, quand vous avez 0 Espoir et que le MJ devrait gagner une Peur, vous gagnez un Espoir à la place.",
+   "• Lorsque vous réussissez une attaque, vous pouvez cocher un Stress pour ajouter le résultat de votre dé de Peur à votre jet de dégâts."
+  ]
+ },
+ {
+  "id": "minuit-7-15",
+  "nom": "Esquiver et disparaître",
+  "domaine": "Minuit",
+  "type": "Sort",
+  "niveau": 7,
+  "rappel": 1,
+  "texte": [
+   "Lorsqu’une attaque infligeant des dégâts physiques est dirigée contre vous et échoue, vous pouvez dépenser un Espoir pour vous envelopper d’un linceul d’ombres, devenir Caché et vous téléporter en un point à Courte portée de votre assaillant. Vous restez Caché jusqu’à ce que vous effectuiez un jet d’action."
+  ]
+ },
+ {
+  "id": "minuit-8-16",
+  "nom": "Charge magique",
+  "domaine": "Minuit",
+  "type": "Sort",
+  "niveau": 8,
+  "rappel": 1,
+  "texte": [
+   "Lorsque vous subissez des dégâts magiques, posez sur cette carte un nombre de jetons égal au nombre de points de Blessure cochés. Vous pouvez y placer au maximum un nombre de jetons égal à votre trait d’Incantation.",
+   "Lorsque vous réussissez une attaque contre une cible, vous pouvez dépenser autant de jetons que vous le désirez pour ajouter un d6 au jet de dégât par jeton dépensé."
+  ]
+ },
+ {
+  "id": "minuit-8-17",
+  "nom": "Chasseur des ombres",
+  "domaine": "Minuit",
+  "type": "Capacité",
+  "niveau": 8,
+  "rappel": 2,
+  "texte": [
+   "Vous êtes encore meilleur sous le couvert de l’obscurité. Tant que vous êtes dans une faible lumière ou dans les ténèbres, vous gagnez un bonus de +1 à l’Esquive et vous effectuez vos jets d’attaque avec un avantage."
+  ]
+ },
+ {
+  "id": "minuit-9-18",
+  "nom": "Le dû du crépuscule",
+  "domaine": "Minuit",
+  "type": "Capacité",
+  "niveau": 9,
+  "rappel": 1,
+  "texte": [
+   "Choisissez une cible à Longue portée. Lorsque vous réussissez un jet d’action contre elle, mais qu’il n’entraîne pas de jet de dégâts, posez un jeton sur cette carte. Lorsque vous infligez des dégâts à cette cible, vous pouvez dépenser autant de jetons que vous le désirez pour ajouter un d12 au jet de dégâts par jeton dépensé. Vous ne pouvez maintenir ce sort que sur une créature à la fois.",
+   "Défaussez tous les jetons non dépensés lorsque vous choisissez une nouvelle cible ou que vous prenez un repos."
+  ]
+ },
+ {
+  "id": "minuit-9-19",
+  "nom": "Terreur nocturne",
+  "domaine": "Minuit",
+  "type": "Sort",
+  "niveau": 9,
+  "rappel": 2,
+  "texte": [
+   "Une fois par long repos, choisissez autant de cibles situées à Très courte portée que vous le désirez. Elles vous perçoivent alors comme une horreur cauchemardesque. Elles doivent réussir un jet de réaction (16) ou être temporairement Horrifiées. Tant qu’elles sont Horrifiées, elles sont Vulnérables. Volez au MJ un nombre de Peurs égal au nombre de cibles Horrifiées (sans dépasser le nombre de Peurs actuellement disponibles dans sa réserve). Lancez un",
+   "nombre de d6 égal au nombre de Peurs volées et infligez ce total de dégâts à chaque cible Horrifiée. Défaussez les Peurs volées."
+  ]
+ },
+ {
+  "id": "minuit-10-20",
+  "nom": "Éclipse",
+  "domaine": "Minuit",
+  "type": "Sort",
+  "niveau": 10,
+  "rappel": 2,
+  "texte": [
+   "Effectuez un jet d’Incantation (16). Une fois par long repos, sur un succès, plongez toute la zone à Longue portée dans d’épaisses ténèbres où seuls vos alliés et",
+   "vous parvenez à voir. Les jets d’attaques effectués dans cette obscurité ont un désavantage quand ils visent votre personne ou un de vos alliés.",
+   "De plus, lorsque l’un de vos alliés ou vous remportez un succès avec Espoir contre un adversaire situé dans ces ténèbres, il doit cocher un Stress.",
+   "Ce sort persiste jusqu’à ce que le MJ dépense une Peur à son tour pour dissiper son effet ou jusqu’à ce que vous subissiez des dégâts Graves."
+  ]
+ },
+ {
+  "id": "minuit-10-21",
+  "nom": "Spectre de l’ombre",
+  "domaine": "Minuit",
+  "type": "Sort",
+  "niveau": 10,
+  "rappel": 1,
+  "texte": [
+   "Cochez un Stress pour devenir Spectral jusqu’à ce que vous effectuiez un jet d’action ciblant une autre créature. Tant que vous êtes Spectral, vous êtes immunisé contre les dégâts physiques et vous pouvez flotter et traverser les objets solides. Les autres créatures vous voient toujours même quand vous êtes sous cette forme."
+  ]
+ },
+ {
+  "id": "os-1-1",
+  "nom": "Intouchable",
+  "domaine": "Os",
+  "type": "Capacité",
+  "niveau": 1,
+  "rappel": 1,
+  "texte": [
+   "Vous gagnez un bonus à l’Esquive égal à la moitié de votre Agilité."
+  ]
+ },
+ {
+  "id": "os-1-2",
+  "nom": "Je l’avais vu venir",
+  "domaine": "Os",
+  "type": "Capacité",
+  "niveau": 1,
+  "rappel": 1,
+  "texte": [
+   "Lorsque vous êtes la cible d’une attaque effectuée à une portée supérieure à la Mêlée, vous pouvez cocher un Stress pour lancer un d4 et gagner un bonus à l’Esquive égal au résultat contre cette attaque."
+  ]
+ },
+ {
+  "id": "os-1-3",
+  "nom": "Manœuvres agiles",
+  "domaine": "Os",
+  "type": "Capacité",
+  "niveau": 1,
+  "rappel": 0,
+  "texte": [
+   "Une fois par repos, cochez un Stress pour sprinter n’importe où à Longue portée sans avoir à faire de jet d’Agilité pour vous y rendre.",
+   "Si vous terminez votre déplacement en Mêlée par rapport à un adversaire et effectuez immédiatement une attaque contre lui, vous gagnez un bonus de +1 au jet d’attaque."
+  ]
+ },
+ {
+  "id": "os-2-4",
+  "nom": "Approche stratégique",
+  "domaine": "Os",
+  "type": "Capacité",
+  "niveau": 2,
+  "rappel": 1,
+  "texte": [
+   "Après un long repos, placez sur cette carte un nombre de jetons égal à votre Savoir (minimum 1). Quand vous arrivez pour la première fois à Courte portée d’un adversaire et que vous effectuez une attaque contre lui, vous pouvez dépenser un jeton pour choisir l’une des options suivantes :",
+   "• Vous effectuez l’attaque avec un avantage.",
+   "• Vous effacez un Stress d’un allié en Mêlée avec l’adversaire.",
+   "• Vous ajoutez un d8 à votre jet de dégâts.",
+   "Lorsque vous prenez un long repos, les jetons non dépensés sont perdus."
+  ]
+ },
+ {
+  "id": "os-2-5",
+  "nom": "Férocité",
+  "domaine": "Os",
+  "type": "Capacité",
+  "niveau": 2,
+  "rappel": 2,
+  "texte": [
+   "Lorsque vous obligez un adversaire à cocher 1 point de Blessure ou plus, vous pouvez dépenser 2 Espoirs pour augmenter votre Esquive d’un montant égal au nombre de points de Blessure qu’il a cochés. Ce bonus disparaît après la prochaine attaque effectuée contre vous."
+  ]
+ },
+ {
+  "id": "os-3-6",
+  "nom": "Encaisser",
+  "domaine": "Os",
+  "type": "Capacité",
+  "niveau": 3,
+  "rappel": 1,
+  "texte": [
+   "Lorsque vous cochez un Emplacement d’armure pour réduire les dégâts imminents, vous pouvez cocher un Stress pour cocher un Emplacement d’armure de plus."
+  ]
+ },
+ {
+  "id": "os-3-7",
+  "nom": "Tacticien",
+  "domaine": "Os",
+  "type": "Capacité",
+  "niveau": 3,
+  "rappel": 1,
+  "texte": [
+   "Lorsque vous Aidez un allié, il peut dépenser un Espoir pour ajouter l’une de vos Expériences à son jet en plus de votre dé d’avantage.",
+   "Lorsque vous effectuez un jet d’Équipe, vous pouvez lancer un d20 comme dé d’Espoir."
+  ]
+ },
+ {
+  "id": "os-4-8",
+  "nom": "Décollage",
+  "domaine": "Os",
+  "type": "Capacité",
+  "niveau": 4,
+  "rappel": 1,
+  "texte": [
+   "Cochez un Stress pour prendre appui sur un allié consentant à Courte portée, bondir dans les airs et accomplir une attaque aérienne contre une cible à Longue portée. Vous avez un avantage pour cette attaque, vous ajoutez un d10 à votre jet de dégâts et vous terminez votre acrobatie en Mêlée avec la cible."
+  ]
+ },
+ {
+  "id": "os-4-9",
+  "nom": "Rediriger",
+  "domaine": "Os",
+  "type": "Capacité",
+  "niveau": 4,
+  "rappel": 1,
+  "texte": [
+   "Lorsqu’une attaque effectuée contre vous depuis une portée supérieure à Mêlée échoue, vous lancez un nombre de d6 égal à votre Compétence. Si vous obtenez au moins un 6, vous pouvez cocher un Stress pour rediriger l’attaque",
+   "contre un adversaire à Très courte portée."
+  ]
+ },
+ {
+  "id": "os-5-10",
+  "nom": "Connaître son ennemi",
+  "domaine": "Os",
+  "type": "Capacité",
+  "niveau": 5,
+  "rappel": 1,
+  "texte": [
+   "Lorsque vous observez une créature, vous pouvez faire un jet d’Instinct contre elle. Sur un succès, dépensez un Espoir et demandez au MJ de vous révéler des informations sur elle en choisissant l’une des options suivantes :",
+   "• Ses points de Blessure et ses Stress non cochés.",
+   "• Sa Difficulté et ses seuils de dégâts.",
+   "• Sa tactique et ses dés de dégâts d’attaque standard.",
+   "• Ses aptitudes et ses Expériences.",
+   "De plus, sur un succès, vous pouvez cocher un Stress pour retirer une Peur de la réserve du MJ."
+  ]
+ },
+ {
+  "id": "os-5-11",
+  "nom": "Mouvement emblématique",
+  "domaine": "Os",
+  "type": "Capacité",
+  "niveau": 5,
+  "rappel": 1,
+  "texte": [
+   "Donnez un nom à votre mouvement de combat le plus emblématique et décrivez-le. Une fois par repos, lorsque vous l’exécutez lors d’une action, vous pouvez lancer un d20 comme dé d’Espoir. Sur un succès, vous effacez un Stress."
+  ]
+ },
+ {
+  "id": "os-6-12",
+  "nom": "Récupération",
+  "domaine": "Os",
+  "type": "Capacité",
+  "niveau": 6,
+  "rappel": 1,
+  "texte": [
+   "Lors d’un court repos, vous pouvez choisir à la place un acte de pause de long repos. Vous pouvez dépenser un Espoir pour permettre à un allié de faire de même."
+  ]
+ },
+ {
+  "id": "os-6-13",
+  "nom": "Riposte rapide",
+  "domaine": "Os",
+  "type": "Capacité",
+  "niveau": 6,
+  "rappel": 0,
+  "texte": [
+   "Lorsqu’une attaque portée en Mêlée contre vous échoue, vous pouvez cocher un Stress pour profiter de cette occasion et infliger les dégâts de l’une de vos armes actives à l’assaillant."
+  ]
+ },
+ {
+  "id": "os-7-14",
+  "nom": "Béni par l’Os",
+  "domaine": "Os",
+  "type": "Capacité",
+  "niveau": 7,
+  "rappel": 2,
+  "texte": [
+   "Lorsque vous avez au moins 4 cartes du domaine de l’Os dans votre main, vous gagnez les avantages suivants :",
+   "• Bonus de +1 à l’Agilité",
+   "• Une fois par repos, vous pouvez dépenser 3 Espoirs pour qu’une attaque réussie contre vous se solde à la place par un échec."
+  ]
+ },
+ {
+  "id": "os-7-15",
+  "nom": "Cruelle précision",
+  "domaine": "Os",
+  "type": "Capacité",
+  "niveau": 7,
+  "rappel": 1,
+  "texte": [
+   "Lorsque vous réussissez une attaque avec une arme, vous gagnez un bonus au jet de dégâts égal à votre Finesse ou votre Agilité."
+  ]
+ },
+ {
+  "id": "os-8-16",
+  "nom": "Coup destructeur",
+  "domaine": "Os",
+  "type": "Capacité",
+  "niveau": 8,
+  "rappel": 3,
+  "texte": [
+   "Lorsque vous réussissez une attaque, vous pouvez cocher un Stress pour que la prochaine attaque réussie contre la même cible inflige 2d12 dégâts de plus."
+  ]
+ },
+ {
+  "id": "os-8-17",
+  "nom": "Repositionnement",
+  "domaine": "Os",
+  "type": "Capacité",
+  "niveau": 8,
+  "rappel": 1,
+  "texte": [
+   "Effectuez un jet d’Agilité contre toutes les cibles à Courte portée. Dépensez un Espoir pour déplacer à un autre point à Courte portée les cibles contre lesquelles vous avez réussi, ainsi que tous les alliés consentants à Courte portée."
+  ]
+ },
+ {
+  "id": "os-9-18",
+  "nom": "Au bord du gouffre",
+  "domaine": "Os",
+  "type": "Capacité",
+  "niveau": 9,
+  "rappel": 1,
+  "texte": [
+   "S’il vous reste seulement 2 points de Blessure ou moins, vous ne subissez plus de dégâts Mineurs."
+  ]
+ },
+ {
+  "id": "os-9-19",
+  "nom": "Frappe répartie",
+  "domaine": "Os",
+  "type": "Capacité",
+  "niveau": 9,
+  "rappel": 3,
+  "texte": [
+   "Dépensez un Espoir et effectuez une attaque contre tous les adversaires à portée de votre arme. Une fois par long repos, sur un succès contre l’un d’eux, lancez les dégâts de votre arme puis redistribuez-les comme bon vous semble entre les adversaires contre lesquels vous avez réussi l’attaque. Avant d’infliger les dégâts à chaque cible, lancez un dé de dégâts de plus et ajoutez son résultat aux dégâts que vous lui infligez."
+  ]
+ },
+ {
+  "id": "os-10-20",
+  "nom": "Course mortelle",
+  "domaine": "Os",
+  "type": "Capacité",
+  "niveau": 10,
+  "rappel": 1,
+  "texte": [
+   "Dépensez 3 Espoirs pour courir en ligne droite à travers le champ de bataille jusqu’à un point situé à Longue portée et faire une attaque contre tous les adversaires à portée de votre arme sur le chemin. Choisissez l’ordre dans lequel vous infligez des dégâts aux cibles contre lesquelles vous avez réussi. Pour la première, effectuez votre jet de dégâts avec un bonus de +1 à votre Compétence. Ensuite, retirez un dé de votre jet de dégâts et infligez les dégâts restants à la cible suivante. Continuez à retirer des dés pour chaque cible subséquente jusqu’à ce que vous soyez à court de dés ou d’adversaires.",
+   "Vous ne pouvez pas cibler un même adversaire plusieurs fois par attaque."
+  ]
+ },
+ {
+  "id": "os-10-21",
+  "nom": "D’un pas leste",
+  "domaine": "Os",
+  "type": "Capacité",
+  "niveau": 10,
+  "rappel": 2,
+  "texte": [
+   "Lorsqu’une attaque portée contre vous échoue, effacez un Stress. Si vous ne pouvez pas, gagnez un Espoir."
+  ]
+ },
+ {
+  "id": "sagesse-1-1",
+  "nom": "Enchevêtrement vicieux",
+  "domaine": "Sagesse",
+  "type": "Sort",
+  "niveau": 1,
+  "rappel": 1,
+  "texte": [
+   "Effectuez un jet d’Incantation contre une cible à Longue portée. Sur un succès, des racines et des plantes grimpantes sortent de terre et infligent 1d8+1 dégâts physiques en plus de Bloquer temporairement la cible.",
+   "De plus, sur un succès, vous pouvez dépenser un Espoir pour Bloquer temporairement un autre adversaire à Très courte portée de votre cible."
+  ]
+ },
+ {
+  "id": "sagesse-1-2",
+  "nom": "Langage de la nature",
+  "domaine": "Sagesse",
+  "type": "Capacité",
+  "niveau": 1,
+  "rappel": 0,
+  "texte": [
+   "Vous pouvez parler la langue du monde naturel. Lorsque vous voulez communiquer avec les plantes et les animaux qui vous entourent, effectuez un jet d’Instinct (12). Sur un succès, ils vous donnent les informations qu’ils possèdent. Sur un jet avec Peur, leurs connaissances sont limitées ou s’accompagnent d’un prix à payer.",
+   "De plus, lorsque vous effectuez un jet d’Incantation au sein d’un environnement naturel, vous pouvez dépenser un Espoir pour gagner un bonus de +2 sur le jet."
+  ]
+ },
+ {
+  "id": "sagesse-1-3",
+  "nom": "Pisteur doué",
+  "domaine": "Sagesse",
+  "type": "Capacité",
+  "niveau": 1,
+  "rappel": 0,
+  "texte": [
+   "Lorsque vous suivez la piste d’une créature ou d’un groupe de créatures en vous appuyant sur les traces qu’elles ont laissées, vous pouvez dépenser autant d’Espoirs que vous le souhaitez pour poser au MJ une question de la liste suivante par Espoir dépensé.",
+   "• Dans quelle direction sont-elles parties ?",
+   "• Depuis combien de temps sont-elles passées par ici ?",
+   "• Que faisaient-elles ici ?",
+   "• Combien étaient-elles ?",
+   "Lorsque vous rencontrez des créatures que vous avez traquées ainsi, vous gagnez un bonus de +1 à l’Esquive contre elles."
+  ]
+ },
+ {
+  "id": "sagesse-2-4",
+  "nom": "Convoquer un essaim",
+  "domaine": "Sagesse",
+  "type": "Sort",
+  "niveau": 2,
+  "rappel": 1,
+  "texte": [
+   "Scarabées caparaçonnés de Tékairie. Cochez un Stress pour invoquer des scarabées caparaçonnés qui forment un cercle autour de vous. La prochaine fois que vous subissez des dégâts, réduisez leur gravité d’un seuil. Vous pouvez dépenser un Espoir pour que les",
+   "scarabées invoqués perdurent une fois que vous avez subi des dégâts.",
+   "Mouches embrasées. Effectuez un jet d’Incantation contre tous les adversaires à Courte portée. Dépensez un Espoir pour infliger 2d8+3 dégâts magiques aux cibles contre lesquelles vous avez remporté un succès."
+  ]
+ },
+ {
+  "id": "sagesse-2-5",
+  "nom": "Familier naturel",
+  "domaine": "Sagesse",
+  "type": "Sort",
+  "niveau": 2,
+  "rappel": 1,
+  "texte": [
+   "Dépensez un Espoir pour invoquer un esprit de la nature ou une petite créature de la forêt qui reste à vos côtés jusqu’à votre prochain repos, jusqu’à ce que vous lanciez de nouveau Familier naturel ou jusqu’à ce que le familier soit la cible d’une attaque. Si vous dépensez un Espoir de plus, vous pouvez invoquer un familier volant. Vous pouvez communiquer avec lui, faire un jet d’Incantation pour lui ordonner d’accomplir une tâche simple et cocher un Stress pour voir à travers ses yeux.",
+   "Lorsque vous infligez des dégâts à un adversaire en Mêlée avec votre familier, vous ajoutez un d6 à votre jet de dégâts."
+  ]
+ },
+ {
+  "id": "sagesse-3-6",
+  "nom": "Projectile corrosif",
+  "domaine": "Sagesse",
+  "type": "Sort",
+  "niveau": 3,
+  "rappel": 1,
+  "texte": [
+   "Effectuez un jet d’Incantation contre une cible à Longue portée. Si vous réussissez, vous infligez d6+4 dégâts physiques basés sur votre Compétence. De plus, cochez 2 Stress ou plus pour la Corroder de manière permanente. Une cible Corrodée subit un malus de −1 à la Difficulté par tranche de 2 Stress dépensés. Cet état est cumulable."
+  ]
+ },
+ {
+  "id": "sagesse-3-7",
+  "nom": "Tige géante",
+  "domaine": "Sagesse",
+  "type": "Sort",
+  "niveau": 3,
+  "rappel": 1,
+  "texte": [
+   "Une fois par repos, vous pouvez invoquer à Courte portée une immense tige spiralée facile à escalader. Sa hauteur peut aller jusqu’à une Longue portée.",
+   "Cochez un Stress pour utiliser ce sort comme attaque. Effectuez un jet d’Incantation contre un adversaire ou un groupe d’adversaires à Courte portée. Quand la tige jaillit, elle soulève dans les airs les cibles contre lesquelles vous avez remporté un succès avant de les lâcher, leur infligeant d8 dégâts physiques basés sur votre Compétence."
+  ]
+ },
+ {
+  "id": "sagesse-4-8",
+  "nom": "Champ curatif",
+  "domaine": "Sagesse",
+  "type": "Sort",
+  "niveau": 4,
+  "rappel": 2,
+  "texte": [
+   "Une fois par long repos, vous pouvez invoquer un champ de plantes curatives autour de vous. Le terrain à Courte portée déborde alors de vie végétale, ce qui permet à vous et vos alliés dans la zone d’effacer un point de Blessure.",
+   "Dépensez 2 Espoirs pour permettre à vos alliés et vous d’effacer à la place 2 points de Blessure."
+  ]
+ },
+ {
+  "id": "sagesse-4-9",
+  "nom": "Étreinte mortelle",
+  "domaine": "Sagesse",
+  "type": "Sort",
+  "niveau": 4,
+  "rappel": 1,
+  "texte": [
+   "Effectuez un jet d’Incantation contre une cible à Courte portée et choisissez l’une des options suivantes :",
+   "• Vous attirez la cible en Mêlée ou vous vous tractez vers elle jusqu’à être en Mêlée avec.",
+   "• Vous enserrez la cible et l’obligez à cocher 2 Stress.",
+   "• Tous les adversaires présents entre elle et vous doivent réussir un jet de réaction (13) ou être frappés par des lianes qui infligent 3d6+2 dégâts physiques.",
+   "Sur un succès, des lianes jaillissent de vos mains, infligent l’effet choisi et Bloquent temporairement la cible."
+  ]
+ },
+ {
+  "id": "sagesse-5-10",
+  "nom": "Corps épineux",
+  "domaine": "Sagesse",
+  "type": "Sort",
+  "niveau": 5,
+  "rappel": 1,
+  "texte": [
+   "Une fois par repos, dépensez un Espoir pour faire jaillir des épines de tout votre corps. Posez alors sur cette carte un nombre de jetons égal à votre trait d’Incantation. Lorsque vous subissez des dégâts, vous pouvez dépenser autant de ces jetons que vous le désirez pour lancer un nombre de d6 équivalent. Additionnez leurs résultats et réduisez les dégâts imminents de ce montant. Si votre assaillant est en Mêlée avec vous, il reçoit ce même montant sous forme de dégâts.",
+   "Lorsque vous prenez un repos, les jetons non dépensés sont perdus."
+  ]
+ },
+ {
+  "id": "sagesse-5-11",
+  "nom": "Forteresse sauvage",
+  "domaine": "Sagesse",
+  "type": "Sort",
+  "niveau": 5,
+  "rappel": 1,
+  "texte": [
+   "Effectuez un jet d’Incantation (13). Sur un succès, dépensez 2 Espoirs pour faire pousser une barricade naturelle en forme de dôme où vous pouvez vous réfugier avec un allié. Une fois à l’intérieur, une créature ne peut plus être la cible d’une attaque ni en effectuer. Une attaque portée contre le dôme est toujours réussie. Voici les seuils de dégâts du dôme qui résiste jusqu’à ce qu’il ait coché 3 points de Blessure. Posez des jetons sur cette carte pour représenter les points de Blessure cochés.",
+   "Seuils : 15/30"
+  ]
+ },
+ {
+  "id": "sagesse-6-12",
+  "nom": "Cueillette",
+  "domaine": "Sagesse",
+  "type": "Capacité",
+  "niveau": 6,
+  "rappel": 1,
+  "texte": [
+   "Vous pouvez choisir un nouvel acte de pause, la cueillette. Lancez un d6 pour voir ce que vous trouvez. Discutez avec votre MJ pour le décrire et l’ajouter à votre inventaire sous forme de consommable. Votre groupe ne peut pas transporter plus de cinq consommables cueillis à la fois. 1. Un aliment unique (efface 2 Stress). 2. Une belle relique (donne 2 Espoirs). 3. Une rune magique (+2 à un jet d’ Incantation). 4. Une fiole curative (efface 2 points de Blessure). 5. Un porte-bonheur (permet de relancer un dé). 6. Choisissez une option parmi les précédentes."
+  ]
+ },
+ {
+  "id": "sagesse-6-13",
+  "nom": "Invocation de montures",
+  "domaine": "Sagesse",
+  "type": "Sort",
+  "niveau": 6,
+  "rappel": 0,
+  "texte": [
+   "Dépensez le nombre d’Espoirs que vous désirez pour invoquer tout autant de montures magiques (comme des chevaux, des dromadaires ou des éléphants). Vos alliés et vous pouvez les chevaucher jusqu’à votre prochain long repos ou jusqu’à ce qu’elles subissent le moindre dégât. Une monture double votre vitesse de déplacement par voie de terre et, lorsque vous êtes en danger, vous permet de vous rendre à Longue portée sans avoir à faire de jet. Une créature sur une monture subit un malus de −2 aux jets d’attaque et un bonus de +2 aux jets de dégâts."
+  ]
+ },
+ {
+  "id": "sagesse-7-14",
+  "nom": "Béni par la Sagesse",
+  "domaine": "Sagesse",
+  "type": "Capacité",
+  "niveau": 7,
+  "rappel": 2,
+  "texte": [
+   "Lorsque vous avez au moins 4 cartes du domaine de la Sagesse dans votre main, vous gagnez les avantages suivants :",
+   "• Lorsque vous vous trouvez dans un environnement naturel, vous gagnez un bonus de +2 aux jets d’Incantation.",
+   "• Une fois par repos, vous pouvez doubler votre Agilité ou votre Instinct lorsque vous effectuez un jet utilisant ce trait. Vous devez décider de le faire avant de lancer les dés."
+  ]
+ },
+ {
+  "id": "sagesse-7-15",
+  "nom": "Effervescence sauvage",
+  "domaine": "Sagesse",
+  "type": "Sort",
+  "niveau": 7,
+  "rappel": 2,
+  "texte": [
+   "Une fois par long repos, cochez un Stress pour vous renforcer en puisant dans le monde naturel qui vous entoure. Décrivez comment votre apparence se modifie, puis posez un d6 sur cette carte, le 1 sur le dessus.",
+   "Tant que le dé d’Effervescence sauvage est actif, vous ajoutez sa valeur à tout jet d’action que vous effectuez. Une fois que vous avez ajouté sa valeur à un jet, vous augmentez la valeur du dé de 1. Quand vous prenez un repos ou que la valeur du dé devrait dépasser 6, vous reprenez votre apparence normale et vous devez cocher un Stress."
+  ]
+ },
+ {
+  "id": "sagesse-8-16",
+  "nom": "Barrière régénératrice",
+  "domaine": "Sagesse",
+  "type": "Sort",
+  "niveau": 8,
+  "rappel": 1,
+  "texte": [
+   "Effectuez un jet d’Incantation (15). Une fois par repos, sur un succès, vous créez une barrière d’énergie protectrice temporaire autour de vous à Très courte portée. Vous et tous les alliés à l’intérieur de la barrière lorsque vous lancez le sort effacez 1d4 points de Blessure. Une fois la barrière dressée, vous et les alliés présents à l’intérieur bénéficiez d’une résistance aux dégâts physiques venant de l’extérieur de la barrière.",
+   "La barrière se déplace avec vous."
+  ]
+ },
+ {
+  "id": "sagesse-8-17",
+  "nom": "Esprits de la forêt",
+  "domaine": "Sagesse",
+  "type": "Sort",
+  "niveau": 8,
+  "rappel": 2,
+  "texte": [
+   "Effectuez un jet d’Incantation (13). Sur un succès, dépensez autant d’Espoirs que vous le désirez pour créer un même nombre de petits esprits de la forêt qui apparaissent en des points de votre choix à Longue portée et offrent les avantages suivants :",
+   "• Vos alliés gagnent un bonus de +3 aux jets d’attaque contre les adversaires en Mêlée avec un esprit.",
+   "• Un allié qui coche un Emplacement d’armure alors qu’il est en Mêlée avec un esprit peut en cocher un de plus.",
+   "Un esprit disparaît après avoir accordé un bénéfice ou subit des dégâts."
+  ]
+ },
+ {
+  "id": "sagesse-9-18",
+  "nom": "Empire végétal",
+  "domaine": "Sagesse",
+  "type": "Sort",
+  "niveau": 9,
+  "rappel": 1,
+  "texte": [
+   "Effectuez un jet d’Incantation (18). Une fois par long repos, sur un succès, vous pouvez refaçonner le monde naturel, et modifier la vie végétale où vous le souhaitez à Longue portée. Par exemple, vous pouvez faire pousser des arbres instantanément, dégager un chemin au milieu de lianes denses ou créer un mur de racines."
+  ]
+ },
+ {
+  "id": "sagesse-9-19",
+  "nom": "Sanctuaire sauvage",
+  "domaine": "Sagesse",
+  "type": "Capacité",
+  "niveau": 9,
+  "rappel": 2,
+  "texte": [
+   "Après un long repos, posez sur cette carte un nombre de jetons égal au nombre de cartes du domaine de la Sagesse présentes dans votre main et votre caveau.",
+   "Quand vous devez faire un jet d’Incantation, après le jet, vous pouvez dépenser le nombre de jetons de votre choix pour gagner un bonus de +1 par jeton.",
+   "Vous gagnez un jeton chaque fois que vous réussissez un jet d’Incantation pour un sort du domaine de la Sagesse.",
+   "Lorsque vous prenez un long repos, les jetons non dépensés sont perdus."
+  ]
+ },
+ {
+  "id": "sagesse-10-20",
+  "nom": "Force de la nature",
+  "domaine": "Sagesse",
+  "type": "Sort",
+  "niveau": 10,
+  "rappel": 2,
+  "texte": [
+   "Cochez un Stress pour vous changer en un énorme esprit de la nature et gagnez les avantages suivants :",
+   "• Lorsque vous réussissez un jet d’attaque ou d’Incantation, vous gagnez un bonus de +10 au jet de dégâts.",
+   "• Lorsque vous infligez assez de dégâts à une créature à Courte portée, vous l’absorbez et effacez un Emplacement d’armure.",
+   "• Vous ne pouvez pas être Bloqué.",
+   "Vous devez dépenser un Espoir avant de faire un jet d’action. Si vous ne pouvez pas, vous reprenez votre forme normale."
+  ]
+ },
+ {
+  "id": "sagesse-10-21",
+  "nom": "Tempête",
+  "domaine": "Sagesse",
+  "type": "Sort",
+  "niveau": 10,
+  "rappel": 2,
+  "texte": [
+   "Choisissez l’une des tempêtes suivantes et effectuez un jet d’Incantation contre toutes les cibles à Longue portée. Celles contre lesquelles vous réussissez souffrent des effets de la tempête choisie jusqu’à ce que le MJ dépense une Peur à son tour pour mettre un terme au sort. Blizzard. Infligez 2d20+8 dégâts magiques aux cibles qui deviennent également temporairement Vulnérables.",
+   "Ouragan. Infligez 3d10+10 dégâts magiques aux cibles et choisissez dans quelle direction souffle le vent. Elles ne peuvent pas avancer contre lui.",
+   "Tempête de sable. Infligez 5d6+9 dégâts magiques aux cibles. Les attaques effectuées depuis une portée supérieure à Mêlée souffrent d’un désavantage."
+  ]
+ },
+ {
+  "id": "splendeur-1-1",
+  "nom": "Carreau éblouissant",
+  "domaine": "Splendeur",
+  "type": "Sort",
+  "niveau": 1,
+  "rappel": 1,
+  "texte": [
+   "Effectuez un jet d’Incantation contre une cible à Longue portée. Sur un succès, dépensez un Espoir pour lui envoyer un carreau lumineux infligeant d8+2 dégâts magiques basés sur votre Compétence. La cible devient temporairement Vulnérable et émet une vive lumière jusqu’à ce qu’elle se débarrasse de cet état."
+  ]
+ },
+ {
+  "id": "splendeur-1-2",
+  "nom": "Contact réparateur",
+  "domaine": "Splendeur",
+  "type": "Sort",
+  "niveau": 1,
+  "rappel": 1,
+  "texte": [
+   "Vous posez les mains sur une créature et canalisez une magie curative afin de refermer ses plaies. Lorsque vous disposez de quelques minutes pour vous concentrer sur la cible que vous guérissez, vous pouvez dépenser 2 Espoirs pour effacer un de ses points de Blessure ou de Stress.",
+   "Une fois par long repos, lorsque vous profitez de la durée de cette guérison pour apprendre quelque chose sur elle ou lui révéler quelque chose sur vous, vous pouvez effacer à la place 2 de ses points de Blessure ou de Stress."
+  ]
+ },
+ {
+  "id": "splendeur-1-3",
+  "nom": "Réconfort",
+  "domaine": "Splendeur",
+  "type": "Capacité",
+  "niveau": 1,
+  "rappel": 0,
+  "texte": [
+   "Une fois par repos, après qu’un allié a tenté un jet d’action, mais avant d’en appliquer les conséquences, vous pouvez lui apporter votre aide ou des paroles de soutien. Cet allié peut alors relancer ses dés."
+  ]
+ },
+ {
+  "id": "splendeur-2-4",
+  "nom": "Dernières paroles",
+  "domaine": "Splendeur",
+  "type": "Sort",
+  "niveau": 2,
+  "rappel": 1,
+  "texte": [
+   "Vous pouvez redonner un souffle de vie à un cadavre pour parler avec lui. Effectuez un jet d’Incantation (13). Sur un succès avec Espoir, il répond à un maximum de trois questions. Sur un succès avec Peur, il répond à une seule. Il répond sincèrement, mais il ne peut pas donner d’informations qu’il ne possédait pas de son vivant. Sur un échec ou quand il a répondu, il tombe en poussière."
+  ]
+ },
+ {
+  "id": "splendeur-2-5",
+  "nom": "Mains guérisseuses",
+  "domaine": "Splendeur",
+  "type": "Sort",
+  "niveau": 2,
+  "rappel": 1,
+  "texte": [
+   "Effectuez un jet d’Incantation (13) en ciblant une créature en Mêlée autre que vous. Sur un succès, cochez un Stress pour lui effacer 2 points de Blessure ou 2 Stress. Sur un échec, cochez un Stress pour lui effacer 1 point de Blessure ou",
+   "1 Stress. Vous ne pouvez pas soigner de nouveau une même cible avant d’avoir terminé un long repos."
+  ]
+ },
+ {
+  "id": "splendeur-3-6",
+  "nom": "Second souffle",
+  "domaine": "Splendeur",
+  "type": "Capacité",
+  "niveau": 3,
+  "rappel": 2,
+  "texte": [
+   "Une fois par repos, lorsque vous réussissez une attaque contre un adversaire, vous pouvez effacer 3 Stress ou un point de Blessure. Sur un succès avec Espoir, vous effacez également 3 Stress ou un point de Blessure sur un allié à Courte portée."
+  ]
+ },
+ {
+  "id": "splendeur-3-7",
+  "nom": "Voix de la raison",
+  "domaine": "Splendeur",
+  "type": "Capacité",
+  "niveau": 3,
+  "rappel": 1,
+  "texte": [
+   "Vous vous exprimez avec une autorité et une assurance inégalées. Vous avez un avantage sur les jets d’action pour désamorcer les situations violentes ou convaincre quelqu’un de suivre vos directives.",
+   "De plus, les moments critiques vous exaltent. Lorsque vous avez coché tous vos Stress, vous gagnez un bonus de +1 à la Compétence sur vos jets de dégâts."
+  ]
+ },
+ {
+  "id": "splendeur-4-8",
+  "nom": "Divination",
+  "domaine": "Splendeur",
+  "type": "Sort",
+  "niveau": 4,
+  "rappel": 1,
+  "texte": [
+   "Une fois par long repos, dépensez 3 Espoirs pour demander aux forces de l’au-delà de répondre par oui ou par non à une question à propos d’un événement, d’une personne, d’un lieu ou d’une situation dans un futur proche. Le présent s’efface un instant pour que la réponse se dessine sous vos yeux."
+  ]
+ },
+ {
+  "id": "splendeur-4-9",
+  "nom": "Protection vitale",
+  "domaine": "Splendeur",
+  "type": "Sort",
+  "niveau": 4,
+  "rappel": 1,
+  "texte": [
+   "Dépensez 3 Espoirs et choisissez un allié à Courte portée. Il est marqué d’un symbole de protection luisant. Lorsqu’il devrait faire un acte de mort, il efface un point de Blessure à la place.",
+   "L’effet se termine lorsqu’il a évité un acte de mort à la cible, lorsque vous lancez Protection vitale sur une autre cible ou lorsque vous prenez un long repos."
+  ]
+ },
+ {
+  "id": "splendeur-5-10",
+  "nom": "Châtier",
+  "domaine": "Splendeur",
+  "type": "Sort",
+  "niveau": 5,
+  "rappel": 2,
+  "texte": [
+   "Une fois par repos, dépensez 3 Espoirs pour préparer un puissant châtiment. La prochaine fois que vous réussissez une attaque avec une arme, doublez le résultat de votre jet de dégâts. Cette attaque inflige des dégâts magiques, quel que soit le type de dégâts normaux de l’arme."
+  ]
+ },
+ {
+  "id": "splendeur-5-11",
+  "nom": "Façonner la matière",
+  "domaine": "Splendeur",
+  "type": "Sort",
+  "niveau": 5,
+  "rappel": 1,
+  "texte": [
+   "Dépensez un Espoir pour façonner à votre guise une section de matériau naturel que vous touchez (comme de la pierre, de la glace ou du bois). La zone de matière concernée ne peut pas être plus grande que vous. Par exemple, vous pouvez façonner un outil rudimentaire ou créer une porte.",
+   "Vous affectez seulement la matière à Courte portée de l’endroit que vous touchez."
+  ]
+ },
+ {
+  "id": "splendeur-6-12",
+  "nom": "Restauration",
+  "domaine": "Splendeur",
+  "type": "Sort",
+  "niveau": 6,
+  "rappel": 2,
+  "texte": [
+   "Après un long repos, placez sur cette carte un nombre de jetons égal à votre trait d’Incantation. Touchez une créature et dépensez le nombre de jetons de votre choix pour effacer 2 points de Blessure ou 2 Stress par jeton dépensé.",
+   "Vous pouvez aussi dépenser un jeton de cette carte lorsque vous touchez une créature pour la débarrasser de l’état Vulnérable ou soigner une affliction physique ou magique (le MJ peut exiger plus de jetons en fonction de l’intensité de l’affliction).",
+   "Lorsque vous prenez un long repos, les jetons non dépensés sont perdus."
+  ]
+ },
+ {
+  "id": "splendeur-6-13",
+  "nom": "Zone de protection",
+  "domaine": "Splendeur",
+  "type": "Sort",
+  "niveau": 6,
+  "rappel": 2,
+  "texte": [
+   "Effectuez un jet d’Incantation (16). Une fois par long repos, sur un succès, choisissez un point à Longue portée et créez une zone de protection visible pour tous les alliés à Très courte portée de ce point. Posez alors un d6 sur cette carte, avec le 1 sur le dessus. Quand un allié présent dans la zone subit des dégâts, il les réduit de la valeur du dé. Vous augmentez ensuite la valeur du dé de 1. L’effet se termine lorsque la valeur du dé devrait dépasser 6."
+  ]
+ },
+ {
+  "id": "splendeur-7-14",
+  "nom": "Béni par la Splendeur",
+  "domaine": "Splendeur",
+  "type": "Capacité",
+  "niveau": 7,
+  "rappel": 2,
+  "texte": [
+   "Lorsque vous avez au moins 4 cartes du domaine de la Splendeur dans votre main, vous gagnez les avantages suivants :",
+   "• Bonus de +3 à votre seuil de dégâts Graves",
+   "• Une fois par long repos, lorsque des dégâts imminents vous obligent à cocher des points de Blessure, vous pouvez à la place cocher le même nombre de Stress ou dépenser le même nombre d’Espoirs."
+  ]
+ },
+ {
+  "id": "splendeur-7-15",
+  "nom": "Frappe curative",
+  "domaine": "Splendeur",
+  "type": "Sort",
+  "niveau": 7,
+  "rappel": 1,
+  "texte": [
+   "Lorsque vous infligez des dégâts à un adversaire, vous pouvez dépenser 2 Espoirs pour effacer un point de Blessure d’un allié à Courte portée."
+  ]
+ },
+ {
+  "id": "splendeur-8-16",
+  "nom": "Aura protectrice",
+  "domaine": "Splendeur",
+  "type": "Sort",
+  "niveau": 8,
+  "rappel": 2,
+  "texte": [
+   "Cochez un Stress pour lancer une aura protectrice sur une cible à Très courte portée. Lorsqu’elle coche un Emplacement d’armure, réduisez la gravité de l’attaque d’un seuil de plus. Si ce sort fait que la créature qui aurait dû être blessée ne coche aucun point de Blessure, il se termine.",
+   "Vous ne pouvez maintenir ce sort que sur une créature à la fois."
+  ]
+ },
+ {
+  "id": "splendeur-8-17",
+  "nom": "Soleil étourdissant",
+  "domaine": "Splendeur",
+  "type": "Sort",
+  "niveau": 8,
+  "rappel": 2,
+  "texte": [
+   "Effectuez un jet d’Incantation pour envoyer de puissants rayons de soleil brûlant contre tous les adversaires situés devant vous à Longue portée. Sur un succès, dépensez autant d’Espoirs",
+   "que vous le désirez pour obliger tout autant de cibles contre lesquelles vous avez remporté un succès à faire un jet de réaction (14).",
+   "Celles qui réussissent subissent 3d20+3 dégâts magiques. Celles qui échouent subissent 4d20+5 dégâts magiques et sont temporairement Étourdies. Tant qu’elles sont Étourdies, elles ne peuvent pas utiliser de réaction ni entreprendre d’action tant qu’elles ne se sont pas débarrassées de cet état."
+  ]
+ },
+ {
+  "id": "splendeur-9-18",
+  "nom": "Aura écrasante",
+  "domaine": "Splendeur",
+  "type": "Sort",
+  "niveau": 9,
+  "rappel": 2,
+  "texte": [
+   "Effectuez un jet d’Incantation (15) pour renforcer votre aura par magie. Sur un succès, dépensez 2 Espoirs pour que votre Présence soit égale à votre trait d’Incantation jusqu’à votre prochain long repos.",
+   "Tant que ce sort est actif, un adversaire doit cocher un Stress lorsqu’il vous prend pour cible d’une attaque."
+  ]
+ },
+ {
+  "id": "splendeur-9-19",
+  "nom": "Rayon salvateur",
+  "domaine": "Splendeur",
+  "type": "Sort",
+  "niveau": 9,
+  "rappel": 2,
+  "texte": [
+   "Effectuez un jet d’Incantation (16). Sur un succès, cochez autant de Stress que",
+   "vous le souhaitez pour cibler une ligne d’alliés à Longue portée. Vous effacez un nombre de points de Blessure parmi eux égal au nombre de Stress cochés, à répartir comme bon vous semble."
+  ]
+ },
+ {
+  "id": "splendeur-10-20",
+  "nom": "Résurrection",
+  "domaine": "Splendeur",
+  "type": "Sort",
+  "niveau": 10,
+  "rappel": 2,
+  "texte": [
+   "Effectuez un jet d’Incantation (20). Sur un succès, vous rendez la vie et la santé à une créature morte depuis moins de cent ans. Lancez ensuite un d6. Sur un 5 ou moins, placez définitivement cette carte dans votre caveau.",
+   "Sur un échec, vous ne pouvez plus lancer Résurrection pendant une semaine."
+  ]
+ },
+ {
+  "id": "splendeur-10-21",
+  "nom": "Revigorer",
+  "domaine": "Splendeur",
+  "type": "Sort",
+  "niveau": 10,
+  "rappel": 3,
+  "texte": [
+   "Lorsqu’un allié à Courte portée ou vousmême avez utilisé une aptitude avec une limite d’utilisations (par exemple, une fois par repos ou une fois par session), vous pouvez dépenser autant d’Espoirs que vous le souhaitez et lancer autant de d6. Si vous obtenez au moins un 6, l’aptitude est de nouveau utilisable."
+  ]
+ },
+ {
+  "id": "vaillance-1-1",
+  "nom": "Je suis ton bouclier",
+  "domaine": "Vaillance",
+  "type": "Capacité",
+  "niveau": 1,
+  "rappel": 1,
+  "texte": [
+   "Lorsqu’un allié à Très courte portée devrait subir des dégâts, vous pouvez cocher un Stress pour vous interposer et devenir la cible de l’attaque à sa place. Lorsque vous subissez les dégâts de cette attaque, vous pouvez cocher autant d’Emplacements d’armure que vous le souhaitez."
+  ]
+ },
+ {
+  "id": "vaillance-1-2",
+  "nom": "Os nus",
+  "domaine": "Vaillance",
+  "type": "Capacité",
+  "niveau": 1,
+  "rappel": 0,
+  "texte": [
+   "Lorsque vous décidez de ne pas porter d’armure, vous disposez d’une Valeur d’armure de base de 3 + votre Force, et vous utilisez les valeurs suivantes comme seuils de dégâts de base :",
+   "• Palier 1 : 9/19",
+   "• Palier 2 : 11/24",
+   "• Palier 3 : 13/31",
+   "• Palier 4 : 15/38"
+  ]
+ },
+ {
+  "id": "vaillance-1-3",
+  "nom": "Puissante poussée",
+  "domaine": "Vaillance",
+  "type": "Capacité",
+  "niveau": 1,
+  "rappel": 0,
+  "texte": [
+   "Effectuez une attaque avec votre arme principale contre une cible en Mêlée.",
+   "Sur un succès, vous infligez les dégâts et repoussez la cible à Courte portée. Sur un succès avec Espoir, vous ajoutez un d6 à votre jet de dégâts.",
+   "De plus, vous pouvez dépenser un Espoir pour rendre la cible temporairement Vulnérable."
+  ]
+ },
+ {
+  "id": "vaillance-2-4",
+  "nom": "Présence audacieuse",
+  "domaine": "Vaillance",
+  "type": "Capacité",
+  "niveau": 2,
+  "rappel": 0,
+  "texte": [
+   "Lorsque vous effectuez un jet de Présence, vous pouvez dépenser un Espoir pour ajouter votre Force au jet.",
+   "De plus, une fois par repos, lorsque vous devriez subir un état, vous pouvez décrire comment votre Présence audacieuse vous aide à surmonter la situation et éviter de subir l’état."
+  ]
+ },
+ {
+  "id": "vaillance-2-5",
+  "nom": "Puissance physique",
+  "domaine": "Vaillance",
+  "type": "Capacité",
+  "niveau": 2,
+  "rappel": 1,
+  "texte": [
+   "Au combat, vous utilisez toute la puissance de votre corps. Si vous réussissez une attaque en Mêlée avec une arme, vous gagnez un bonus au jet de dégâts égal à votre Force."
+  ]
+ },
+ {
+  "id": "vaillance-3-6",
+  "nom": "Compte sur moi",
+  "domaine": "Vaillance",
+  "type": "Capacité",
+  "niveau": 3,
+  "rappel": 1,
+  "texte": [
+   "Une fois par long repos, lorsque vous consolez ou inspirez un allié qui a raté un jet d’action, vous pouvez tous deux effacer 2 Stress."
+  ]
+ },
+ {
+  "id": "vaillance-3-7",
+  "nom": "Inspiration critique",
+  "domaine": "Vaillance",
+  "type": "Capacité",
+  "niveau": 3,
+  "rappel": 1,
+  "texte": [
+   "Une fois par repos, quand vous remportez un succès critique sur une attaque, tous les alliés à Très courte portée peuvent effacer un Stress ou gagner un Espoir."
+  ]
+ },
+ {
+  "id": "vaillance-4-8",
+  "nom": "Provocation",
+  "domaine": "Vaillance",
+  "type": "Capacité",
+  "niveau": 4,
+  "rappel": 1,
+  "texte": [
+   "Décrivez comment vous raillez une cible à Courte portée puis effectuez un jet de Présence contre elle. Sur un succès, elle doit cocher un Stress et, la prochaine fois que le MJ la met en avant, elle doit vous prendre pour cible d’une attaque, qu’elle effectue avec un désavantage."
+  ]
+ },
+ {
+  "id": "vaillance-4-9",
+  "nom": "Puissant soutien",
+  "domaine": "Vaillance",
+  "type": "Capacité",
+  "niveau": 4,
+  "rappel": 2,
+  "texte": [
+   "Lorsqu’un allié à Courte portée rate un jet, vous pouvez dépenser 2 Espoirs pour lui permettre de relancer soit son dé d’Espoir, soit son dé de Peur."
+  ]
+ },
+ {
+  "id": "vaillance-5-10",
+  "nom": "Armurier",
+  "domaine": "Vaillance",
+  "type": "Capacité",
+  "niveau": 5,
+  "rappel": 1,
+  "texte": [
+   "Tant que vous portez une armure, vous gagnez un bonus de +1 à votre Valeur d’armure.",
+   "Lors d’un repos, quand vous choisissez de réparer votre armure comme acte de pause, vos alliés peuvent effacer un Emplacement d’armure."
+  ]
+ },
+ {
+  "id": "vaillance-5-11",
+  "nom": "Frappe motivante",
+  "domaine": "Vaillance",
+  "type": "Capacité",
+  "niveau": 5,
+  "rappel": 1,
+  "texte": [
+   "Une fois par repos, lorsque vous remportez un succès critique sur une attaque, vous et les alliés en mesure de vous voir ou de vous entendre pouvez effacer un point de Blessure ou 1d4 Stress."
+  ]
+ },
+ {
+  "id": "vaillance-6-12",
+  "nom": "Inévitable",
+  "domaine": "Vaillance",
+  "type": "Capacité",
+  "niveau": 6,
+  "rappel": 1,
+  "texte": [
+   "Lorsque vous ratez un jet d’action, votre prochain jet d’action bénéficie d’un avantage."
+  ]
+ },
+ {
+  "id": "vaillance-6-13",
+  "nom": "Se relever",
+  "domaine": "Vaillance",
+  "type": "Capacité",
+  "niveau": 6,
+  "rappel": 2,
+  "texte": [
+   "Ajoutez un bonus égal à votre Compétence à votre seuil de dégâts Graves.",
+   "Lorsque vous cochez 1 ou plusieurs points de Blessure suite à une attaque, effacez un Stress."
+  ]
+ },
+ {
+  "id": "vaillance-7-14",
+  "nom": "Béni par la Vaillance",
+  "domaine": "Vaillance",
+  "type": "Capacité",
+  "niveau": 7,
+  "rappel": 1,
+  "texte": [
+   "Lorsque vous avez au moins 4 cartes du domaine de la Vaillance dans votre main, vous gagnez les avantages suivants :",
+   "• Bonus de +1 à votre Valeur d’armure",
+   "• Lorsque vous cochez un point de Blessure ou plus sans cocher d’Emplacement d’armure, effacez un Emplacement d’armure."
+  ]
+ },
+ {
+  "id": "vaillance-7-15",
+  "nom": "Ignorer",
+  "domaine": "Vaillance",
+  "type": "Capacité",
+  "niveau": 7,
+  "rappel": 1,
+  "texte": [
+   "Lorsque vous devriez subir des dégâts, vous pouvez cocher un Stress pour réduire leur gravité d’un seuil. Lancez alors un d6. Sur un 3 ou moins, placez cette carte dans votre caveau."
+  ]
+ },
+ {
+  "id": "vaillance-8-16",
+  "nom": "Frapper le sol",
+  "domaine": "Vaillance",
+  "type": "Capacité",
+  "niveau": 8,
+  "rappel": 2,
+  "texte": [
+   "Dépensez 2 Espoirs pour frapper le sol là où vous vous trouvez et effectuez un jet de Force contre toutes les cibles à Très courte portée. Les cibles contre lesquelles vous remportez un succès sont repoussées à Longue portée et doivent faire un jet de réaction (17). Celles qui échouent subissent 4d10+8 dégâts. Celles qui réussissent subissent seulement la moitié des dégâts."
+  ]
+ },
+ {
+  "id": "vaillance-8-17",
+  "nom": "Pleine puissance",
+  "domaine": "Vaillance",
+  "type": "Capacité",
+  "niveau": 8,
+  "rappel": 1,
+  "texte": [
+   "Une fois par long repos, cochez 3 Stress pour pousser votre corps à ses limites. Vous gagnez un bonus de +2 à tous vos traits de personnage jusqu’à votre prochain repos."
+  ]
+ },
+ {
+  "id": "vaillance-9-18",
+  "nom": "Montrer l’exemple",
+  "domaine": "Vaillance",
+  "type": "Capacité",
+  "niveau": 9,
+  "rappel": 3,
+  "texte": [
+   "Lorsque vous infligez des dégâts à un adversaire, vous pouvez cocher un Stress et décrire comment vous encouragez vos alliés. Le prochain PJ qui porte une attaque contre cet adversaire peut effacer un Stress ou gagner un Espoir."
+  ]
+ },
+ {
+  "id": "vaillance-9-19",
+  "nom": "Tenir la position",
+  "domaine": "Vaillance",
+  "type": "Capacité",
+  "niveau": 9,
+  "rappel": 1,
+  "texte": [
+   "Décrivez la posture défensive que vous adoptez et dépensez un Espoir. Si un adversaire arrive à Très courte portée, il est attiré en Mêlée et Bloqué.",
+   "Cet état persiste jusqu’à ce que vous vous déplaciez ou que vous ratiez un jet avec Peur ou encore que le MJ dépense 2 Peurs à son tour pour l’éliminer."
+  ]
+ },
+ {
+  "id": "vaillance-10-20",
+  "nom": "Armure solide",
+  "domaine": "Vaillance",
+  "type": "Capacité",
+  "niveau": 10,
+  "rappel": 1,
+  "texte": [
+   "Lorsque vous devriez cocher un Emplacement d’armure, lancez à la place un nombre de d6 égal à votre Compétence. Si vous obtenez au moins un 6, vous réduisez la gravité des dégâts d’un seuil sans cocher d’Emplacement d’armure."
+  ]
+ },
+ {
+  "id": "vaillance-10-21",
+  "nom": "Indestructible",
+  "domaine": "Vaillance",
+  "type": "Capacité",
+  "niveau": 10,
+  "rappel": 4,
+  "texte": [
+   "Lorsque vous cochez votre dernier point de Blessure, au lieu de faire un acte de mort, vous pouvez lancer un d6 et effacer un nombre de points de Blessure égal au résultat obtenu. Placez ensuite cette carte dans votre caveau."
+  ]
+ }
+]

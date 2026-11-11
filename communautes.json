@@ -1,0 +1,101 @@
+[
+ {
+  "id": "com-liee-au-savoir",
+  "nom": "Liée au savoir",
+  "description": "Faire partie d’une communauté liée au savoir signifie que vous venez d’une société qui favorise les prouesses académiques ou politiques.",
+  "aptitudes": [
+   {
+    "nom": "Cultivé",
+    "texte": "Vous avez un avantage sur les jets concernant l’histoire, la culture ou la politique liée à une personne ou un lieu éminent."
+   }
+  ]
+ },
+ {
+  "id": "com-liee-aux-falaises",
+  "nom": "Liée aux falaises",
+  "description": "En tant que membre d’une communauté liée aux falaises, vous vous sentez chez vous parmi les pics rocheux et les falaises abruptes des montagnes.",
+  "aptitudes": [
+   {
+    "nom": "Assuré",
+    "texte": "Vous avez un avantage sur les jets pour franchir des falaises et des corniches dangereuses, vous déplacer dans des environnements difficiles et utiliser votre savoir en matière de survie."
+   }
+  ]
+ },
+ {
+  "id": "com-liee-aux-souterrains",
+  "nom": "Liée aux souterrains",
+  "description": "En tant que membre d’une communauté liée aux souterrains, vous avez grandi sous terre.",
+  "aptitudes": [
+   {
+    "nom": "Vie dans la pénombre",
+    "texte": "Lorsque vous vous trouvez dans une zone où la lumière est faible ou l’ombre épaisse, vous avez un avantage sur les jets visant à vous cacher, à enquêter ou à percevoir des détails dans cette zone."
+   }
+  ]
+ },
+ {
+  "id": "com-liee-a-la-mer",
+  "nom": "Liée à la mer",
+  "description": "Pour appartenir à une communauté liée à la mer, vous devez vivre près d’une vaste étendue d’eau.",
+  "aptitudes": [
+   {
+    "nom": "Connaître la marée",
+    "texte": "Vous percevez le flux et le reflux de la vie. Lorsque vous effectuez un jet avec Peur, posez un jeton sur votre carte de communauté. Vous pouvez y placer un nombre de jetons égal à votre niveau. Avant de faire un jet d’action, vous pouvez dépenser autant de ces jetons que vous le voulez. Chacun vous donne un bonus de +1 au jet. À la fin de chaque session, les jetons non dépensés sont perdus."
+   }
+  ]
+ },
+ {
+  "id": "com-liee-a-la-nature",
+  "nom": "Liée à la nature",
+  "description": "Faire partie d’une communauté originaire de la nature, c’est avoir grandi au cœur de la forêt.",
+  "aptitudes": [
+   {
+    "nom": "Pied léger",
+    "texte": "Vos mouvements sont naturellement silencieux. Vous avez un avantage sur les jets visant à vous déplacer sans être entendu."
+   }
+  ]
+ },
+ {
+  "id": "com-liee-a-la-noblesse",
+  "nom": "Liée à la noblesse",
+  "description": "Faire partie d’une communauté liée à la noblesse signifie que vous êtes habitué à une vie d’élégance, d’opulence et de pres- tige dans les échelons supérieurs de la société.",
+  "aptitudes": [
+   {
+    "nom": "Privilège",
+    "texte": "Vous avez un avantage sur vos jets lorsque vous fréquentez des nobles, négociez un prix ou tirez parti de votre réputation pour obtenir ce que vous voulez."
+   }
+  ]
+ },
+ {
+  "id": "com-liee-a-la-ruse",
+  "nom": "Liée à la ruse",
+  "description": "Être originaire d’une communauté liée à la ruse implique que vous avez grandi au sein d’un groupe opérant en dehors de la loi, comme des criminels, des escrocs et des arnaqueurs.",
+  "aptitudes": [
+   {
+    "nom": "Crapule",
+    "texte": "Vous avez un avantage sur les jets visant à négocier avec des criminels, à repérer un mensonge ou à trouver un endroit sûr où se cacher."
+   }
+  ]
+ },
+ {
+  "id": "com-liee-a-lerrance",
+  "nom": "Liée à l’errance",
+  "description": "En tant que membre d’une communauté liée à l’errance, vous avez mené une vie nomade, sans foyer permanent, et rencontré de nombreuses cultures.",
+  "aptitudes": [
+   {
+    "nom": "Sac de nomade",
+    "texte": "Ajoutez un Sac de nomade à votre inventaire. Une fois par session, vous pouvez dépenser un Espoir pour fouiller dedans et en sortir un objet courant utile dans votre situation. Voyez avec votre MJ pour déterminer quel objet vous en sortez."
+   }
+  ]
+ },
+ {
+  "id": "com-liee-a-lordre",
+  "nom": "Liée à l’ordre",
+  "description": "Appartenir à une communauté liée à l’ordre, c’est apparte- nir à une collectivité qui se concentre sur la discipline ou la religion et respecter un ensemble de principes qui reflètent votre expérience en son sein.",
+  "aptitudes": [
+   {
+    "nom": "Dévoué",
+    "texte": "Notez trois adages ou valeurs que votre éducation vous a inculqués. Une fois par repos, vous pouvez lancer un d20 comme dé d’Espoir à condition de décrire comment vous incarnez ces principes par votre action actuelle."
+   }
+  ]
+ }
+]

@@ -1,0 +1,272 @@
+[
+ {
+  "id": "asc-clank",
+  "nom": "Clank",
+  "description": "Les clanks sont des créatures mécaniques douées de con- science construites à partir de divers matériaux, comme le métal, le bois et la pierre.",
+  "aptitudes": [
+   {
+    "nom": "Conception réfléchie",
+    "texte": "Décidez qui vous a fabriqué et pourquoi. Lorsque vous créez votre personnage, choisissez parmi vos Expériences la plus adaptée à ce but et ajoutez-lui un bonus permanent de +1."
+   },
+   {
+    "nom": "Efficace",
+    "texte": "Lorsque vous prenez un court repos, vous pouvez choisir un acte de pause de long repos au lieu d’un acte de pause de court repos."
+   }
+  ]
+ },
+ {
+  "id": "asc-coa",
+  "nom": "Côa",
+  "description": "Les côas ressemblent à des grenouilles anthropomorphes aux yeux saillants et aux mains et pieds palmés.",
+  "aptitudes": [
+   {
+    "nom": "Amphibie",
+    "texte": "Vous pouvez respirer et vous déplacer naturellement sous l’eau."
+   },
+   {
+    "nom": "Longue langue",
+    "texte": "Vous pouvez utiliser votre longue langue pour vous agripper à des objets à Courte portée. Cochez un Stress pour utiliser votre langue comme une arme de Finesse à Courte portée qui inflige d12 dégâts physiques basés sur votre Compétence."
+   }
+  ]
+ },
+ {
+  "id": "asc-drakona",
+  "nom": "Drakona",
+  "description": "Les drakonas ressemblent à des dragons sans ailes de forme humanoïde dotés d’un puissant souffle élémentaire.",
+  "aptitudes": [
+   {
+    "nom": "Écailles",
+    "texte": "Vos écailles forment une protection naturelle. Lorsque vous devriez subir des dégâts Graves, vous pouvez cocher un Stress pour cocher un point de Blessure de moins."
+   },
+   {
+    "nom": "Souffle élémentaire",
+    "texte": "Choisissez un élément pour votre souffle (comme l’électricité, le feu ou la glace). Vous pouvez utiliser ce souffle contre une cible ou un groupe de cibles à Très courte portée. Vous le considérez comme une arme d’Instinct infligeant d8 dégâts magiques basés sur votre Compétence."
+   }
+  ]
+ },
+ {
+  "id": "asc-elfe",
+  "nom": "Elfe",
+  "description": "Les elfes sont généralement des humanoïdes de haute taille avec des oreilles pointues et des sens affûtés.",
+  "aptitudes": [
+   {
+    "nom": "Réactions rapides",
+    "texte": "Cochez un Stress pour gagner un avantage sur un jet de réaction."
+   },
+   {
+    "nom": "Transe céleste",
+    "texte": "Pendant un repos, vous pouvez entrer en transe pour choisir un acte de pause supplémentaire."
+   }
+  ]
+ },
+ {
+  "id": "asc-faune",
+  "nom": "Faune",
+  "description": "Les faunes ressemblent à des chèvres humanoïdes, avec des cornes incurvées, des pupilles rectangulaires et des sabots fourchus.",
+  "aptitudes": [
+   {
+    "nom": "Saut caprin",
+    "texte": "Vous pouvez sauter n’importe où à Courte portée comme si vous vous déplaciez normalement, mais cela vous permet de sauter par-dessus les obstacles, les fossés ou les barrières."
+   },
+   {
+    "nom": "Coup de pied",
+    "texte": "Lorsque vous réussissez une attaque contre une cible en Mêlée, vous pouvez cocher un Stress pour vous éloigner d’elle d’un coup de pied, ce qui lui inflige 2d6 dégâts de plus et repousse votre personne ou votre cible à Très courte portée."
+   }
+  ]
+ },
+ {
+  "id": "asc-fee",
+  "nom": "Fée",
+  "description": "Les fées sont des créatures humanoïdes ailées dotées de caractéristiques insectoïdes.",
+  "aptitudes": [
+   {
+    "nom": "Porte-chance",
+    "texte": "Une fois par session, après que vous ou un allié à Courte portée avez fait un jet d’action, vous pouvez dépenser 3 Espoirs pour relancer les dés de Dualité."
+   },
+   {
+    "nom": "Ailes",
+    "texte": "Vous pouvez voler. Lorsque vous volez, vous pouvez cocher un Stress après qu’un adversaire a fait une attaque contre vous pour gagner un bonus de +2 à l’Esquive contre cette attaque."
+   }
+  ]
+ },
+ {
+  "id": "asc-firbolg",
+  "nom": "Firbolg",
+  "description": "Les firbolgs sont des humanoïdes bovins reconnaissables à leur large museau et leurs oreilles tombantes.",
+  "aptitudes": [
+   {
+    "nom": "Charge",
+    "texte": "Lorsque vous réussissez un jet d’Agilité pour vous déplacer depuis une portée Longue ou Très longue jusqu’à être en Mêlée par rapport à une ou plusieurs cibles, vous pouvez cocher un Stress pour infliger 1d12 dégâts physiques à toutes les cibles en Mêlée."
+   },
+   {
+    "nom": "Impassible",
+    "texte": "Lorsque vous devez cocher un Stress, lancez un d6. Sur un 6, ne le cochez pas."
+   }
+  ]
+ },
+ {
+  "id": "asc-fongile",
+  "nom": "Fongile",
+  "description": "Les fongiles ressemblent à des champignons humanoïdes.",
+  "aptitudes": [
+   {
+    "nom": "Réseau fongile",
+    "texte": "Effectuez un jet d’Instinct (12) pour utiliser votre réseau mycélien et communiquer avec d’autres membres de votre ascendance. Sur un succès, vous parvenez à communiquer sur n’importe quelle distance."
+   },
+   {
+    "nom": "Connexion macabre",
+    "texte": "Vous pouvez cocher un Stress en touchant un cadavre pour en extraire un souvenir lié à une émotion ou une sensation spécifique de votre choix."
+   }
+  ]
+ },
+ {
+  "id": "asc-galapa",
+  "nom": "Galapa",
+  "description": "Les galapas ressemblent à des tortues anthropomorphes, avec une grande carapace en forme de dôme dans laquelle ils peuvent se réfugier.",
+  "aptitudes": [
+   {
+    "nom": "Carapace",
+    "texte": "Vous gagnez un bonus à vos seuils de dégâts égal à votre Compétence."
+   },
+   {
+    "nom": "Se rétracter",
+    "texte": "Cochez un Stress pour vous réfugier dans votre carapace. Tant que vous êtes à l’intérieur, vous êtes résistant aux dégâts physiques, vous êtes désavantagés sur les jets d’action et vous ne pouvez pas vous déplacer."
+   }
+  ]
+ },
+ {
+  "id": "asc-geant",
+  "nom": "Géant",
+  "description": "Les géants sont des humanoïdes imposants avec de larges épaules, de longs bras et un à trois yeux.",
+  "aptitudes": [
+   {
+    "nom": "Endurance",
+    "texte": "Vous gagnez un emplacement de point de Blessure supplémentaire lors de la création du personnage."
+   },
+   {
+    "nom": "Allonge",
+    "texte": "Traitez toute arme, capacité, sort ou autre aptitude dont la portée est Mêlée comme si elle était à la place Très courte."
+   }
+  ]
+ },
+ {
+  "id": "asc-gobelin",
+  "nom": "Gobelin",
+  "description": "Les gobelins sont de petits humanoïdes que l’on reconnaît facilement à leurs grands yeux et leurs impressionnantes oreilles membraneuses.",
+  "aptitudes": [
+   {
+    "nom": "Pied sûr",
+    "texte": "Vous ignorez tout désavantage sur les jets d’Agilité."
+   },
+   {
+    "nom": "Pressentir le danger",
+    "texte": "Une fois par repos, cochez un Stress pour obliger un adversaire à refaire un jet d’attaque contre vous ou un allié à Très courte portée."
+   }
+  ]
+ },
+ {
+  "id": "asc-halfelin",
+  "nom": "Halfelin",
+  "description": "Les halfelins sont de petits humanoïdes aux grands pieds poilus et aux larges oreilles rondes.",
+  "aptitudes": [
+   {
+    "nom": "Porte-bonheur",
+    "texte": "Au début de chaque session, tous les membres de votre groupe gagnent un Espoir."
+   },
+   {
+    "nom": "Boussole interne",
+    "texte": "Lorsque vous obtenez un 1 sur votre dé d’Espoir, vous pouvez le relancer."
+   }
+  ]
+ },
+ {
+  "id": "asc-humain",
+  "nom": "Humain",
+  "description": "Les humains se reconnaissent surtout à leurs mains habiles, leurs oreilles arrondies et leur corps bâti pour l’endurance.",
+  "aptitudes": [
+   {
+    "nom": "Endurance élevée",
+    "texte": "Vous gagnez un emplacement de Stress supplémentaire lors de la création du personnage."
+   },
+   {
+    "nom": "Adaptabilité",
+    "texte": "Lorsque vous ratez un jet mettant à profit une de vos Expériences, vous pouvez cocher un Stress pour relancer les dés."
+   }
+  ]
+ },
+ {
+  "id": "asc-infernis",
+  "nom": "Infernis",
+  "description": "Les infernis sont des humanoïdes dotés d’une dentition canine, d’oreilles pointues et de cornes. Ils descendent des démons des Cercles inférieurs.",
+  "aptitudes": [
+   {
+    "nom": "Intrépide",
+    "texte": "Lorsque vous effecture un jet avec Peur, vous pouvez cocher 2 Stress pour transformer cela en jet avec Espoir."
+   },
+   {
+    "nom": "Visage effrayant",
+    "texte": "Vous avez un avantage sur les jets visant à intimider des créatures hostiles."
+   }
+  ]
+ },
+ {
+  "id": "asc-nain",
+  "nom": "Nain",
+  "description": "Les nains sont facilement décrits comme des humanoïdes de petite taille à la stature trapue, à la musculature dense et à l’épaisse chevelure.",
+  "aptitudes": [
+   {
+    "nom": "Épiderme épais",
+    "texte": "Lorsque vous subissez des dégâts Mineurs, vous pouvez cocher 2 Stress au lieu d’un point de Blessure."
+   },
+   {
+    "nom": "Vigueur accrue",
+    "texte": "Dépensez 3 Espoirs pour réduire de moitié des dégâts physiques imminents."
+   }
+  ]
+ },
+ {
+  "id": "asc-orc",
+  "nom": "Orc",
+  "description": "Les orcs sont des humanoïdes reconnaissables à leur visage carré doté de défenses de sanglier qui dépassent de leur mâchoire inférieure.",
+  "aptitudes": [
+   {
+    "nom": "Solide",
+    "texte": "Lorsqu’il vous reste seulement 1 point de Blessure, les attaques contre vous s’accompagnent d’un désavantage."
+   },
+   {
+    "nom": "Défenses",
+    "texte": "Lorsque vous réussissez une attaque contre une cible en Mêlée, vous pouvez dépenser un Espoir pour l’éventrer avec vos défenses, ce qui lui inflige 1d6 dégâts de plus."
+   }
+  ]
+ },
+ {
+  "id": "asc-shatari",
+  "nom": "Shatari",
+  "description": "Les shataris sont des humanoïdes félins avec des griffes rétractiles, des pupilles fendues verticalement et de hautes oreilles triangulaires.",
+  "aptitudes": [
+   {
+    "nom": "Instincts félins",
+    "texte": "Lorsque vous effectuez un Jet d’Agilité, vous pouvez dépenser 2 Espoirs pour relancer votre dé d’Espoir."
+   },
+   {
+    "nom": "Griffes rétractiles",
+    "texte": "Effectuez un jet d’Agilité pour griffer une cible en Mêlée. Sur un succès, elle devient temporairement Vulnérable."
+   }
+  ]
+ },
+ {
+  "id": "asc-simiah",
+  "nom": "Simiah",
+  "description": "Les simiahs ressemblent à de petits singes ou des primates humanoïdes avec de longs membres et des pieds préhensiles.",
+  "aptitudes": [
+   {
+    "nom": "Grimpeur-né",
+    "texte": "Vous avez un avantage sur les jets d’Agilité pour vous équilibrer ou grimper."
+   },
+   {
+    "nom": "Leste",
+    "texte": "Vous gagnez un bonus permanent de +1 à l’Esquive lors de la création du personnage."
+   }
+  ]
+ }
+]

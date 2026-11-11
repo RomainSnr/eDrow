@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    html,body{height:100%;margin:0;background:#1d1b26;color:#ece9f5;font:14px "Segoe UI",system-ui,sans-serif}
+    body{display:flex;flex-direction:column}
+    header{display:flex;gap:10px;align-items:center;padding:8px 12px;border-bottom:1px solid #3a3750}
+    h1{flex:1;margin:0;font:19px Georgia,serif;color:#e6b655;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+    .hint{color:#9a96b0;font-size:12px}
+    button{background:#272535;color:inherit;border:1px solid #3a3750;border-radius:6px;padding:6px 10px;font:inherit;cursor:pointer}
+    button:hover{border-color:#e6b655} button:focus-visible{outline:2px solid #e6b655}
+    iframe{flex:1;border:0;width:100%;background:#fff}
+  </style>
+</head>
+<body>
+  <header>
+    <h1 id="title"></h1>
+    <span class="hint">La fiche ne s'affiche pas ?</span>
+    <button id="tab">Ouvrir dans un onglet</button>
+    <button id="close">Fermer</button>
+  </header>
+  <iframe id="frame" title="Fiche Demiplane" referrerpolicy="no-referrer"></iframe>
+  <script type="module" src="./viewer.js"></script>
+</body>
+</html>

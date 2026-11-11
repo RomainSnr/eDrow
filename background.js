@@ -8,7 +8,7 @@ OBR.onReady(() => {
     id: `${ID}/menu`,
     icons: [
       {
-        icon: "/icon.svg",
+        icon: new URL("icon.svg", import.meta.url).href,
         label: "Fiche Daggerheart",
         filter: { min: 1, max: 1, every: [{ key: "type", value: "IMAGE" }] },
       },

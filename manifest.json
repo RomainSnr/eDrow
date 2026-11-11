@@ -1,0 +1,16 @@
+{
+  "name": "Fiches Daggerheart",
+  "version": "1.0.0",
+  "manifest_version": 1,
+  "description": "Lie une fiche Daggerheart (Demiplane) à un token.",
+  "author": "Moi",
+  "icon": "/icon.svg",
+  "action": {
+    "title": "Fiches Daggerheart",
+    "icon": "/icon.svg",
+    "popover": "/popover.html",
+    "width": 360,
+    "height": 560
+  },
+  "background_url": "/background.html"
+}

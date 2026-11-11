@@ -1,0 +1,32 @@
+:root{
+  --bg:#1d1b26; --panel:#272535; --line:#3a3750; --text:#ece9f5; --muted:#9a96b0;
+  --gold:#e6b655; --hope:#f0cf7a; --stress:#c9575f; --hp:#6fb58a;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font:14px/1.4 "Segoe UI",system-ui,sans-serif}
+#app{padding:12px;display:flex;flex-direction:column;gap:12px}
+h1{font-size:18px;margin:0;font-family:Georgia,"Times New Roman",serif;color:var(--gold)}
+h2{font-size:13px;margin:0 0 6px;color:var(--muted);font-weight:600}
+.muted{color:var(--muted)}
+.row{display:flex;gap:8px;align-items:center}
+.grow{flex:1}
+input,button{font:inherit}
+input{width:100%;background:var(--panel);border:1px solid var(--line);color:var(--text);border-radius:6px;padding:6px 8px}
+input:focus,button:focus-visible{outline:2px solid var(--gold);outline-offset:1px}
+button{background:var(--panel);color:var(--text);border:1px solid var(--line);border-radius:6px;padding:6px 10px;cursor:pointer}
+button:hover{border-color:var(--gold)}
+button.primary{background:var(--gold);color:#1d1b26;border-color:var(--gold);font-weight:600}
+button.danger:hover{border-color:var(--stress);color:var(--stress)}
+.stats{display:grid;grid-template-columns:repeat(2,1fr);gap:8px}
+.stat{background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:8px}
+.stat label{display:block;font-size:12px;color:var(--muted);margin-bottom:4px}
+.stat .pair{display:flex;align-items:center;gap:4px}
+.stat input{text-align:center;padding:4px}
+.stat.hp{border-left:3px solid var(--hp)} .stat.stress{border-left:3px solid var(--stress)} .stat.hope{border-left:3px solid var(--hope)}
+.traits{display:grid;grid-template-columns:repeat(3,1fr);gap:6px}
+.trait{background:var(--panel);border:1px solid var(--line);border-radius:6px;text-align:center;padding:6px 2px}
+.trait b{display:block;font-size:18px}
+.trait span{font-size:11px;color:var(--muted)}
+.list button{width:100%;text-align:left;margin-bottom:6px}
+.error{color:var(--stress);font-size:13px}
+details pre{max-height:160px;overflow:auto;background:var(--panel);padding:8px;border-radius:6px;font-size:11px}

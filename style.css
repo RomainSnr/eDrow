@@ -29,3 +29,7 @@ button.danger:hover{border-color:var(--danger);color:var(--danger)}
 .info dt{color:var(--muted)} .info dd{margin:0}
 .list button{width:100%;text-align:left;margin-bottom:6px}
 details.data pre{margin:0}
+a.btn{display:block;text-decoration:none;text-align:center;background:var(--panel);color:var(--text);border:1px solid var(--line);border-radius:6px;padding:8px 10px;margin-bottom:6px}
+a.btn:hover,a.btn:focus-visible{border-color:var(--gold);outline:none}
+a.btn.primary{background:var(--gold);color:#1d1b26;border-color:var(--gold);font-weight:600}
+a.btn.big{padding:14px 10px;font-size:16px}
